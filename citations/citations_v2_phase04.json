@@ -1,0 +1,342 @@
+{
+  "V300": {
+    "url": "https://notionelevation.com/notion-productivity-statistics-2025-usage-effectiveness-why-its-still-growing-fast/",
+    "title": "How Big Is Notion Really? 35+ Productivity Stats on Users, Revenue & Growth",
+    "source_type": "article",
+    "date": "2025",
+    "author": "Notion Elevation",
+    "excerpt": "Notion reached over 100 million users by September 2024. The company generated $67 million in 2022, $250 million in 2023, and $400 million in 2024 in annual revenue. Notion reports year-over-year revenue growth of ~60% from 2023 to 2024. Notion has 4 million paying customers.",
+    "used_in": ["raw_data/phase_04/private_cases/notion.md", "raw_data/phase_04/comparison_data.md"],
+    "relevance": "Primary stats source for Notion user count, revenue trajectory, and paying customer count 2022-2024"
+  },
+  "V301": {
+    "url": "https://super.so/blog/notion-stats",
+    "title": "Notion has 100 Million Users as of 2026 + More Statistics",
+    "source_type": "article",
+    "date": "2024-09",
+    "author": "Super.so Blog",
+    "excerpt": "Notion reached over 100 million users by September 2024. Notion's user base has expanded from 1 million in 2019 to 30 million in 2024.",
+    "used_in": ["raw_data/phase_04/private_cases/notion.md"],
+    "relevance": "Confirms 100M user milestone Sep 2024 and historical growth from 1M in 2019"
+  },
+  "V302": {
+    "url": "https://www.arr.club/signal/notion-arr-hits-500m",
+    "title": "Notion ARR Hits $500M",
+    "source_type": "article",
+    "date": "2025-09",
+    "author": "ARR Club",
+    "excerpt": "Notion has surpassed $500 million in annual recurring revenue (ARR) as of September 2025.",
+    "used_in": ["raw_data/phase_04/private_cases/notion.md", "raw_data/phase_04/20260526_notion_arr_milestones.md"],
+    "relevance": "Confirms Notion $500M ARR milestone September 2025"
+  },
+  "V303": {
+    "url": "https://getlatka.com/companies/notion",
+    "title": "Notion Revenue 2025: $600M ARR, $10B Valuation",
+    "source_type": "article",
+    "date": "2025",
+    "author": "Latka",
+    "excerpt": "Notion's revenue reached $600M ARR in 2025. Notion's company valuation is approximately US$10 billion.",
+    "used_in": ["raw_data/phase_04/private_cases/notion.md", "raw_data/phase_04/20260526_notion_arr_milestones.md"],
+    "relevance": "Latka estimate for Notion ARR at $600M; also confirms $10B valuation"
+  },
+  "V304": {
+    "url": "https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps",
+    "title": "The cult of Obsidian: Why people are obsessed with the note-taking app",
+    "source_type": "article",
+    "date": "2023",
+    "author": "Fast Company",
+    "excerpt": "Obsidian estimates it has approximately one million users based on GitHub download counts. The app's Discord server has more than 110,000 members and its Reddit community has about 94,600 members, which ranks it in the top 5% of Reddit communities.",
+    "used_in": ["raw_data/phase_04/private_cases/obsidian.md", "raw_data/phase_04/20260526_fastcompany_obsidian_cult.md"],
+    "relevance": "Primary source for Obsidian's ~1M user estimate and community size data"
+  },
+  "V305": {
+    "url": "https://www.linkedin.com/posts/stephango_no-one-knows-how-many-users-obsidian-has-activity-7351766158372429825-WH9p",
+    "title": "Steph Ango LinkedIn Post: No one knows how many users Obsidian has",
+    "source_type": "article",
+    "date": "2025",
+    "author": "Steph Ango (Obsidian CEO)",
+    "excerpt": "No one knows how many users Obsidian has — company deliberately does not track this metric.",
+    "used_in": ["raw_data/phase_04/private_cases/obsidian.md", "raw_data/phase_04/20260526_fastcompany_obsidian_cult.md"],
+    "relevance": "CEO confirmation that Obsidian intentionally does not track or publish user counts"
+  },
+  "V306": {
+    "url": "https://support.strava.com/hc/en-us/articles/360034758331-Your-Privacy-Defaults-When-You-Create-a-Strava-Account",
+    "title": "Your Privacy Defaults When You Create a Strava Account",
+    "source_type": "company_blog",
+    "date": "2026-03",
+    "author": "Strava Support",
+    "excerpt": "When you join the Strava community, your profile and your activities are set to be viewable by 'Everyone' by default. Profile: Everyone, Activities: Everyone. Once you have uploaded your first activity to Strava, the first and last 200 meters of your future activity maps will be hidden by default.",
+    "used_in": ["raw_data/phase_04/private_cases/strava_private_layer.md", "raw_data/phase_04/public_cases/strava_public_layer.md", "raw_data/phase_04/20260526_strava_support_privacy_defaults.md"],
+    "relevance": "Official Strava source confirming default-public settings for all new accounts; refutes specific '70%' claim as unverified"
+  },
+  "V307": {
+    "url": "https://every.to/superorganizers/the-fall-of-roam",
+    "title": "The Fall of Roam",
+    "source_type": "substack_post",
+    "date": "2022-02",
+    "author": "Every.to / Dan Shipper",
+    "excerpt": "Peak around 2019-2020 when bidirectional linking generated significant enthusiasm. By February 2022, adoption had noticeably dropped. Issues: slow product development velocity, lack of functional mobile experience, community management issues. Alternatives gaining traction: Obsidian, Notion.",
+    "used_in": ["raw_data/phase_04/private_cases/roam_research.md", "raw_data/phase_04/20260526_every_fall_of_roam.md"],
+    "relevance": "Primary qualitative source documenting Roam Research's decline and root causes"
+  },
+  "V308": {
+    "url": "https://techcrunch.com/2022/11/10/ai-powered-note-taking-app-mem-raises-23-5m-openai/",
+    "title": "OpenAI leads $23.5M round in Mem, an AI-powered note-taking app",
+    "source_type": "article",
+    "date": "2022-11-10",
+    "author": "TechCrunch",
+    "excerpt": "AI-powered note-taking app Mem raised $23.5 million from OpenAI Startup Fund. Post-money valuation: $110 million.",
+    "used_in": ["raw_data/phase_04/private_cases/mem_ai.md"],
+    "relevance": "Primary source for Mem.ai's funding round and valuation; baseline for evaluating subsequent stagnation"
+  },
+  "V309": {
+    "url": "https://www.cnbc.com/2018/07/24/glaxosmithkline-23andme-team-up-on-genetics-driven-drug-research.html",
+    "title": "GlaxoSmithKline strikes $300 million deal with 23andMe for genetics-driven drug research",
+    "source_type": "article",
+    "date": "2018-07-24",
+    "author": "CNBC",
+    "excerpt": "GlaxoSmithKline invested $300 million in consumer genetics company 23andMe, forging a four-year collaboration to discover medicines using human genetics as a guide. The partnership established GSK as 23andMe's exclusive collaborator for drug target discovery. At time: 23andMe had 5 million customers; 80% agreed to share de-identified data.",
+    "used_in": ["raw_data/phase_04/b_side_feedback_fit.md", "raw_data/phase_04/20260526_cnbc_23andme_gsk_deal.md"],
+    "relevance": "Primary source for the $300M GSK-23andMe deal in 2018; foundational B2B data monetization case"
+  },
+  "V310": {
+    "url": "https://www.genomeweb.com/cancer/23andme-gets-50m-payment-gsk-extends-companies-drug-discovery-alliance",
+    "title": "23andMe Gets $50M Payment as GSK Extends Companies' Drug Discovery Alliance",
+    "source_type": "article",
+    "date": "2023",
+    "author": "GenomeWeb",
+    "excerpt": "GSK exercised an option to extend the alliance until July 2023, triggering a $50 million payment. In less than four years under the collaboration, the companies had identified over 40 therapeutic programs and advanced an immuno-oncology antibody targeting CD96 into clinical development.",
+    "used_in": ["raw_data/phase_04/b_side_feedback_fit.md", "raw_data/phase_04/20260526_cnbc_23andme_gsk_deal.md"],
+    "relevance": "Confirms GSK $50M extension payment and 40+ therapeutic programs outcome"
+  },
+  "V311": {
+    "url": "https://www.fiercehealthcare.com/regulatory/23andme-bankruptcy-sparks-genetic-data-privacy-concerns-its-15m-customers",
+    "title": "23andMe bankruptcy sparks genetic data privacy concerns for its 15M customers",
+    "source_type": "article",
+    "date": "2025-03",
+    "author": "Fierce Healthcare",
+    "excerpt": "23andMe filed for Chapter 11 bankruptcy protection on March 23, 2025. The company is gearing up for a court-supervised sale of its assets, which include the genetic data of over 15 million customers. About 80% of users have opted into 23andMe's research program.",
+    "used_in": ["raw_data/phase_04/b_side_feedback_fit.md", "raw_data/phase_04/20260526_fiercehealthcare_23andme_bankruptcy.md"],
+    "relevance": "Documents 15M customer scale, 80% opt-in rate, and bankruptcy trigger for genetic data sale concerns"
+  },
+  "V312": {
+    "url": "https://elevenflo.com/blog/23andme-chapter-11-deep-dive-35m-dip-financing-asset-sale-dynamics-and-privacy-scrutiny",
+    "title": "23andMe: From $6B Unicorn to $305M Nonprofit Sale in Chapter 11",
+    "source_type": "article",
+    "date": "2025",
+    "author": "Elevenflo",
+    "excerpt": "23andMe's chapter 11 featured a two-stage auction won by founder Wojcicki's nonprofit TTAM Research Institute at $305M. The company held genetic data of more than 15 million customers. Sale closed July 14, 2025.",
+    "used_in": ["raw_data/phase_04/b_side_feedback_fit.md", "raw_data/phase_04/20260526_fiercehealthcare_23andme_bankruptcy.md"],
+    "relevance": "Confirms $305M sale price to TTAM nonprofit; sale closed July 14, 2025"
+  },
+  "V313": {
+    "url": "https://news.harvard.edu/gazette/story/2025/03/what-happens-to-your-genetic-data-if-23andme-collapses/",
+    "title": "What happens to your data if 23andMe collapses?",
+    "source_type": "article",
+    "date": "2025-03",
+    "author": "Harvard Gazette",
+    "excerpt": "Roughly 80 percent of 23andMe consumers have given consent to share their data, primarily for the company's research program. A central point of contention is the transfer of genetic data without the renewed, opt-in consent of existing 23andMe customers.",
+    "used_in": ["raw_data/phase_04/b_side_feedback_fit.md"],
+    "relevance": "Harvard institutional analysis of 23andMe consent framework and bankruptcy data transfer ethics"
+  },
+  "V314": {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001271024/000119312511295106/d251469dex991.htm",
+    "title": "LINKEDIN CORP - Form 8-K - FY2011 Q3 Earnings Release",
+    "source_type": "s1_filing",
+    "date": "2011",
+    "author": "LinkedIn Corp / SEC",
+    "excerpt": "Q3 2011: Hiring Solutions revenue totaled $71.0 million and represented 51% of total revenue. Q4 2011: Hiring Solutions revenue totaled $84.9 million and represented 50% of total revenue.",
+    "used_in": ["raw_data/phase_04/public_cases/linkedin.md", "raw_data/phase_04/20260526_sec_linkedin_s1_8k_2011.md"],
+    "relevance": "Primary SEC filing confirming LinkedIn Recruiter/Hiring Solutions was 50-51% of revenue from IPO year 2011"
+  },
+  "V315": {
+    "url": "https://www.sec.gov/Archives/edgar/data/0001271024/000119312512446569/d432098dex991.htm",
+    "title": "LINKEDIN CORP - Form 8-K - FY2012 Q3 Earnings Release",
+    "source_type": "s1_filing",
+    "date": "2012",
+    "author": "LinkedIn Corp / SEC",
+    "excerpt": "Q1 2012: Hiring Solutions revenue totaled $102.6 million and represented 54% of total revenue. Q3 2012: Talent Solutions revenue totaled $138.4 million and represented 55% of total revenue.",
+    "used_in": ["raw_data/phase_04/public_cases/linkedin.md", "raw_data/phase_04/20260526_sec_linkedin_s1_8k_2011.md"],
+    "relevance": "SEC filing confirming Talent Solutions grew to 54-55% of LinkedIn revenue by 2012"
+  },
+  "V316": {
+    "url": "https://techcrunch.com/2025/01/29/linkedin-passes-2b-in-premium-revenues-in-12-months-with-overall-revenues-up-9-on-the-year/",
+    "title": "LinkedIn passes $2B in premium revenue in 12 months, with overall revenue up 9% on the year",
+    "source_type": "article",
+    "date": "2025-01-29",
+    "author": "TechCrunch",
+    "excerpt": "LinkedIn generated approximately $17.1 billion in revenue in 2024, up from $15.1 billion in 2023. LinkedIn's premium segment crossed $2 billion in 12 months. Talent Solutions accounts for over 60% of LinkedIn's total revenue.",
+    "used_in": ["raw_data/phase_04/public_cases/linkedin.md", "raw_data/phase_04/b_side_feedback_fit.md", "raw_data/phase_04/20260526_linkedin_revenue_2024_techcrunch.md"],
+    "relevance": "2024 LinkedIn revenue $17.1B confirmed; Talent Solutions ~60%; Premium $2B milestone"
+  },
+  "V317": {
+    "url": "https://techcrunch.com/2025/07/30/github-copilot-crosses-20-million-all-time-users/",
+    "title": "GitHub Copilot crosses 20M all-time users",
+    "source_type": "article",
+    "date": "2025-07-30",
+    "author": "TechCrunch",
+    "excerpt": "GitHub Copilot crossed 20 million all-time users. 4.7 million paid subscribers as of January 2026. 90% of Fortune 100 use Copilot. Satya Nadella: Copilot is a larger business than all of GitHub at acquisition.",
+    "used_in": ["raw_data/phase_04/public_cases/github.md", "raw_data/phase_04/20260526_techcrunch_github_copilot_20m.md"],
+    "relevance": "Primary source for GitHub Copilot scale and Microsoft's public-code-to-B2B-AI monetization"
+  },
+  "V318": {
+    "url": "https://kinsta.com/blog/github-statistics/",
+    "title": "Key GitHub Statistics in 2026 (Users, Employees, and Trends)",
+    "source_type": "article",
+    "date": "2026",
+    "author": "Kinsta",
+    "excerpt": "GitHub now hosts 630 million total repositories (395 million public, 19% YoY). 100M+ developers. Microsoft acquired GitHub for $7.5 billion in 2018.",
+    "used_in": ["raw_data/phase_04/public_cases/github.md"],
+    "relevance": "GitHub repo statistics: 395M public / ~235M private out of 630M total"
+  },
+  "V319": {
+    "url": "https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29",
+    "title": "What is good retention — by Lenny Rachitsky",
+    "source_type": "substack_post",
+    "date": "2021",
+    "author": "Lenny Rachitsky",
+    "excerpt": "For consumer social products, 25% is good and 45% is great at 6 months. For consumer transactional, 30% good, 50% great. For consumer SaaS, 40% good, 70% great. Survey of 20 leading growth practitioners.",
+    "used_in": ["raw_data/phase_04/comparison_data.md", "raw_data/phase_04/20260526_lenny_what_is_good_retention.md"],
+    "relevance": "Industry standard retention benchmarks for evaluating all Phase 04 products; D30/D90 context"
+  },
+  "V320": {
+    "url": "https://otter.ai/blog/otter-ai-caps-transformational-2025-with-100m-arr-milestone-industry-first-ai-meeting-agents-and-global-enterprise-expansion",
+    "title": "Otter.ai Caps Transformational 2025 with $100M ARR Milestone",
+    "source_type": "company_blog",
+    "date": "2025-12",
+    "author": "Otter.ai",
+    "excerpt": "Otter.ai reached $100 million in annual recurring revenue by March 2025. The company expanded from $22.3 million in 2023 to surpassing $100 million in annual recurring revenue by March 2025, representing a dramatic 348% revenue increase in just two years.",
+    "used_in": ["raw_data/phase_04/private_cases/otter_ai.md", "raw_data/phase_04/20260526_otter_ai_100m_arr.md"],
+    "relevance": "Official Otter.ai ARR milestone data: $22.3M (2023) → $81M (2024) → $100M (March 2025)"
+  },
+  "V321": {
+    "url": "https://tubefilter.com/2025/03/12/substack-five-million-paid-subscribers-journalist-reporter-newsletter/",
+    "title": "Substack passes 5 million paid subscribers",
+    "source_type": "article",
+    "date": "2025-03-12",
+    "author": "Tubefilter",
+    "excerpt": "Substack announced that it had five million paid subscriptions in March 2025. Total active subscriptions north of 50 million. Growth from 1M (2021) to 5M (March 2025).",
+    "used_in": ["raw_data/phase_04/public_cases/substack.md", "raw_data/phase_04/20260526_substack_5m_paid_subscribers.md"],
+    "relevance": "Official Substack paid subscriber milestone; growth trajectory data"
+  },
+  "V322": {
+    "url": "https://sacra.com/c/whoop/",
+    "title": "Whoop revenue, valuation & funding | Sacra",
+    "source_type": "report",
+    "date": "2025",
+    "author": "Sacra Research",
+    "excerpt": "Whoop generates $260M in revenue as of 2025. Valuation climbed from $1.2 billion in 2020 to about $3.7 billion in 2025. Users in 56 countries.",
+    "used_in": ["raw_data/phase_04/private_cases/whoop.md"],
+    "relevance": "Whoop revenue ($260M ARR) and valuation trajectory"
+  },
+  "V323": {
+    "url": "https://www.classaction.org/news/whoop-facing-class-action-lawsuit-for-allegedly-sharing-users-fitness-tracker-data-without-permission",
+    "title": "Whoop Facing Class Action Lawsuit for Allegedly Sharing Users' Fitness Tracker Data Without Permission",
+    "source_type": "article",
+    "date": "2025-08",
+    "author": "ClassAction.org",
+    "excerpt": "Lomeli v. Whoop, Inc. filed in Northern District of California, August 2025. Alleges Whoop embedded Segment tracker collecting sensitive personal data without consent. 2024 Imperial College London study: de-identified fitness data re-identifiable with 87% accuracy using 3 data points.",
+    "used_in": ["raw_data/phase_04/private_cases/whoop.md", "raw_data/phase_04/20260526_whoop_class_action_data_privacy.md"],
+    "relevance": "Documents health wearable data privacy risks; class action as consequence of covert data practices"
+  },
+  "V324": {
+    "url": "https://www.businessofapps.com/data/strava-statistics/",
+    "title": "Strava Revenue and Usage Statistics (2026) - Business of Apps",
+    "source_type": "article",
+    "date": "2025-2026",
+    "author": "Business of Apps",
+    "excerpt": "Strava has 180 million registered users, an increase of 35 million on the previous year. Revenue reached US$163.4 million in 2024, recording steady growth from US$132.3 million in 2023. 90% of revenue from premium subscriptions. Valuation $2.2B.",
+    "used_in": ["raw_data/phase_04/public_cases/strava_public_layer.md", "raw_data/phase_04/20260526_strava_revenue_users_2025.md"],
+    "relevance": "Core Strava user count (180M) and revenue data ($163M 2024); premium subscription dominance"
+  },
+  "V325": {
+    "url": "https://metro.strava.com/",
+    "title": "Strava Metro — Aggregated Data for City Planning",
+    "source_type": "company_blog",
+    "date": "2024",
+    "author": "Strava",
+    "excerpt": "Strava Metro provides aggregated, anonymized activity data to city governments and urban planners. Free for qualified organizations; 3,500+ organizations including traffic planners, city leaders and park rangers have access.",
+    "used_in": ["raw_data/phase_04/private_cases/strava_private_layer.md", "raw_data/phase_04/public_cases/strava_public_layer.md"],
+    "relevance": "Official source for Strava's B2B data product; 3,500+ org users; route/activity data (not health data)"
+  },
+  "V326": {
+    "url": "https://expandedramblings.com/index.php/behance-statistics-and-facts/",
+    "title": "Behance Statistics (2026): Members, Creative Network Scale & Key Facts",
+    "source_type": "article",
+    "date": "2026",
+    "author": "Expanded Ramblings",
+    "excerpt": "Behance reports it is a creative community of 50M+ members worldwide. Behance users average around 17 million monthly visitors.",
+    "used_in": ["raw_data/phase_04/public_cases/behance_dribbble.md"],
+    "relevance": "Behance 50M+ member count and monthly visitor data"
+  },
+  "V327": {
+    "url": "https://x.com/DannPetty/status/1904543051638354197",
+    "title": "Dann Petty on X: Behance 50M users, Dribbble ~12M",
+    "source_type": "article",
+    "date": "2025-03",
+    "author": "Dann Petty (designer, top user of both platforms)",
+    "excerpt": "Behance has over 50 million users, while Dribbble has around 12 million. But even with a smaller user base, Dribbble always felt more like home.",
+    "used_in": ["raw_data/phase_04/public_cases/behance_dribbble.md"],
+    "relevance": "Designer community insider estimate for Dribbble (~12M) and Behance (50M+) user counts, March 2025"
+  },
+  "V328": {
+    "url": "https://connectsafely.ai/articles/linkedin-statistics-2026",
+    "title": "100+ LinkedIn Statistics 2026: Revenue, Users, Engagement Rate",
+    "source_type": "article",
+    "date": "2026",
+    "author": "ConnectSafely AI",
+    "excerpt": "LinkedIn has 1.3 billion+ total members, 310 million monthly active users, 134.5 million daily active users. DAU/MAU ratio of approximately 43.4%. LinkedIn Games driving 2+ million daily plays.",
+    "used_in": ["raw_data/phase_04/public_cases/linkedin.md", "raw_data/phase_04/20260526_linkedin_revenue_2024_techcrunch.md"],
+    "relevance": "LinkedIn MAU (310M), DAU (134.5M), DAU/MAU ratio (43.4%) for retention proxy"
+  },
+  "V329": {
+    "url": "https://www.axios.com/2025/03/24/23andme-bankruptcy-what-does-that-mean-data",
+    "title": "23andMe bankruptcy: How to delete account and personal information",
+    "source_type": "article",
+    "date": "2025-03-24",
+    "author": "Axios",
+    "excerpt": "23andMe filed bankruptcy March 23, 2025. Axios guide on how to delete data published same day. Users can delete account but data already in research programs may persist. A bipartisan coalition of 28 attorneys general argued against data sale without renewed opt-in consent.",
+    "used_in": ["raw_data/phase_04/b_side_feedback_fit.md"],
+    "relevance": "User reaction to 23andMe bankruptcy; 28 AG coalition opposition to data sale; day-of panic response"
+  },
+  "V330": {
+    "url": "https://backlinko.com/substack-users",
+    "title": "Substack User and Revenue Statistics (2026)",
+    "source_type": "article",
+    "date": "2026",
+    "author": "Backlinko",
+    "excerpt": "Substack has 50 million active subscriptions, with 5 million of those paid. Nearly 100K publications earn money globally on Substack, up from 50K in May 2025.",
+    "used_in": ["raw_data/phase_04/public_cases/substack.md"],
+    "relevance": "Total active subscriptions (50M) and publications earning money (100K)"
+  },
+  "V331": {
+    "url": "https://dayoneapp.com/guides/premium-subscription/day-one-pricing-features-guide/",
+    "title": "Day One Pricing & Features Guide",
+    "source_type": "company_blog",
+    "date": "2024",
+    "author": "Day One / Automattic",
+    "excerpt": "Day One has three tiers: Basic (free), Silver ($49.99/year), and Gold ($74.99/year). Day One has over 15 million downloads.",
+    "used_in": ["raw_data/phase_04/private_cases/day_one_bear.md"],
+    "relevance": "Official Day One pricing tiers and download count"
+  },
+  "V332": {
+    "url": "https://www.hks.harvard.edu/centers/mrcbg/programs/growthpolicy/23andmes-bankruptcy-raises-concerns-about-privacy-era-big-data",
+    "title": "23andMe's bankruptcy raises concerns about privacy in the era of big data",
+    "source_type": "article",
+    "date": "2025",
+    "author": "Harvard Kennedy School Mossavar-Rahmani Center",
+    "excerpt": "The 23andMe bankruptcy illustrates the precarious future of consumer genetic privacy. The consent obtained was for 'research' not 'sale of company assets' — creating a legal gray zone.",
+    "used_in": ["raw_data/phase_04/b_side_feedback_fit.md"],
+    "relevance": "Academic analysis of the gap between user consent scope and bankruptcy data sale reality"
+  },
+  "V333": {
+    "url": "https://caseyaccidental.com/what-is-good-retention",
+    "title": "What Is Good Retention: An Exhaustive Benchmark Study with Lenny Rachitsky",
+    "source_type": "article",
+    "date": "2021",
+    "author": "Casey Accidental / Lenny Rachitsky",
+    "excerpt": "For consumer social products (such as Twitter or Facebook), 25% is considered good and 45% great at six months. For consumer SaaS (such as Netflix or Spotify), 40% is good, and 70% is great.",
+    "used_in": ["raw_data/phase_04/comparison_data.md", "raw_data/phase_04/20260526_lenny_what_is_good_retention.md"],
+    "relevance": "Co-authored retention benchmark framework; widely used industry standard for evaluating product retention"
+  }
+}

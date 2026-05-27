@@ -1,0 +1,492 @@
+{
+  "phase": "05",
+  "topic": "Cold Start Patterns — Success and Failure Cases",
+  "collected_date": "2026-05-26",
+  "agent": "claude-sonnet-4-6",
+  "citation_range": "V400-V499",
+  "citations": [
+    {
+      "id": "V400",
+      "title": "GitHub at RailsConf — GitHub Blog (May 2008)",
+      "url": "https://github.blog/2008-05-28-github-at-railsconf/",
+      "type": "primary_source",
+      "company": "GitHub",
+      "category": "success",
+      "fetch_status": "success",
+      "key_facts": [
+        "GitHub had a booth at RailsConf 2008 in Portland (Engine Yard's booth)",
+        "All four founders spoke in separate sessions",
+        "Conference confirmed Rails → GitHub migration was simultaneous with public launch",
+        "GitHub positioned as technical/Rails developer tool from day one"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_githubBlog_railsconf2008.md"
+    },
+    {
+      "id": "V401",
+      "title": "One Million Repositories — GitHub Blog (July 25, 2010)",
+      "url": "https://github.blog/2010-07-25-one-million-repositories/",
+      "type": "primary_source",
+      "company": "GitHub",
+      "category": "success",
+      "fetch_status": "success",
+      "key_facts": [
+        "1 million repositories reached July 24-25, 2010",
+        "~27 months after public launch (April 2008)",
+        "Notable projects at milestone: jQuery, Ruby on Rails, Node.js, Redis",
+        "First million took 3 years 8 months 15 days total from first commit (Oct 2007)"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_githubBlog_1millionRepos.md"
+    },
+    {
+      "id": "V402",
+      "title": "How GitHub Democratized Coding — NIRA",
+      "url": "https://nira.com/github-history/",
+      "type": "secondary_source",
+      "company": "GitHub",
+      "category": "success",
+      "fetch_status": "success",
+      "key_facts": [
+        "First commit: October 19, 2007",
+        "PJ Hyett joined January 2008; public launch April 10, 2008",
+        "Geoffrey Grosenbach (PeepCode) was first paying user in April 2008 — volunteered payment",
+        "Freemium model was reactive, not pre-planned",
+        "46,000 repos by February 2009 (first year); 100,000 users by mid-2009",
+        "No VC until 2012 ($100M Series A, a16z); profitable on subscriptions alone"
+      ],
+      "quotes": [
+        {
+          "speaker": "Chris Wanstrath",
+          "text": "In other words, we'd charge the people asking to be charged.",
+          "context": "Explaining the freemium model origin"
+        }
+      ],
+      "raw_file": "20260526_nira_githubHistory.md"
+    },
+    {
+      "id": "V403",
+      "title": "Antler Early Days Episode 1: Strava with Mark Gainey",
+      "url": "https://www.antler.co/blog/antler-early-days-episode-1-strava-with-mark-gainey",
+      "type": "founder_interview",
+      "company": "Strava",
+      "category": "success",
+      "fetch_status": "success",
+      "key_facts": [
+        "Founders Gainey and Horvath met at Harvard rowing in 1980s",
+        "Virtual locker room concept dates to 1995 business plan",
+        "July 2008 prototype: 20 cyclist friends, Garmin GPS, Tour de France timing",
+        "First customer 'David' still with Strava 12-13 years later",
+        "2009: 'just the six of them telling their friends and getting them to sign up'",
+        "Segments feature emerged organically from user conversations about iconic climbs",
+        "Target: MAMILs (middle-aged men in lycra) — passionate, performance-obsessed",
+        "Premium price: $6/month",
+        "Strategy: 'inch wide, mile deep'"
+      ],
+      "quotes": [
+        {
+          "speaker": "Mark Gainey",
+          "text": "We had one customer, his name is David, he's still with us 12-13 years later. We had to figure out every time he uploaded to Strava, how did he have fun?",
+          "context": "Describing early single-user obsession approach"
+        }
+      ],
+      "raw_file": "20260526_antler_stravaGainey.md"
+    },
+    {
+      "id": "V404",
+      "title": "Contrary Research: Substack Business Breakdown & Founding Story",
+      "url": "https://research.contrary.com/company/substack",
+      "type": "secondary_source",
+      "company": "Substack",
+      "category": "success",
+      "fetch_status": "success",
+      "key_facts": [
+        "Founded May 2017: Chris Best (CEO), Jairaj Sethi (CTO), Hamish McKenzie (Chief Writing Officer)",
+        "All three met at Kik messaging app",
+        "First customer: Bill Bishop (Sinocism) — 30K subscribers, China newsletter",
+        "October 18, 2017: Bishop's paywall email brought six figures of revenue by end of day",
+        "YC W2018",
+        "Paid subscribers: 11K (Jul 2018) → 50K (2019) → 100K (Aug 2020) → 500K (Feb 2021) → 1M (Nov 2021)",
+        "Business model: 10% commission + 2.9% + $0.30 Stripe fees",
+        "Writers own their subscriber lists (portability)"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_contraryResearch_substack.md"
+    },
+    {
+      "id": "V405",
+      "title": "The History of LinkedIn: From 2003 Startup to 1 Billion Users — powerin.io",
+      "url": "https://www.powerin.io/blog/history-of-linkedin",
+      "type": "secondary_source",
+      "company": "LinkedIn",
+      "category": "success",
+      "fetch_status": "success",
+      "key_facts": [
+        "Conceived December 2002 by Reid Hoffman (former PayPal COO) + 4 co-founders",
+        "Launch: May 5, 2003",
+        "Day 1: ~4,500 members (personal contacts of founders)",
+        "December 2003: 81,000 members (organic, invitation mechanics)",
+        "April 2004: 500,000 members",
+        "August 2004: 1,000,000 members (15 months post-launch)",
+        "2010: 100M members",
+        "2023: 1B+ members"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_powerin_linkedinHistory.md"
+    },
+    {
+      "id": "V406",
+      "title": "LinkedIn Sequoia Series A Press Release (November 2003)",
+      "url": "https://news.linkedin.com/2003/11/sequoia-capital-links-in-with-47-million-investment",
+      "type": "primary_source",
+      "company": "LinkedIn",
+      "category": "success",
+      "fetch_status": "not_fetched_confirmed_via_search",
+      "key_facts": [
+        "Sequoia Capital led Series A: $4.7M",
+        "Pre-money valuation: $10-15M",
+        "Investment came November 2003, ~6 months post-launch",
+        "~80,000 users at time of Series A"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_linkedin_pressReleases.md"
+    },
+    {
+      "id": "V407",
+      "title": "LinkedIn Recruiter Launch Press Release (March 2008)",
+      "url": "https://news.linkedin.com/2008/03/linkedin-launches-new-corporate-recruiter-product",
+      "type": "primary_source",
+      "company": "LinkedIn",
+      "category": "success",
+      "fetch_status": "not_fetched_confirmed_via_search",
+      "key_facts": [
+        "LinkedIn Recruiter launched March 2008",
+        "Described as 'Corporate Solutions product'",
+        "Premium features for corporate staffing departments",
+        "Became dominant B2B revenue stream for next decade",
+        "LinkedIn Jobs had launched March 2005 as first premium product"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_linkedin_pressReleases.md"
+    },
+    {
+      "id": "V408",
+      "title": "Axios: Substack says it has more than 1 million paid subscriptions (Nov 15, 2021)",
+      "url": "https://www.axios.com/2021/11/15/substack-1-million-paid-subscriptions",
+      "type": "news_article",
+      "company": "Substack",
+      "category": "success",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "1 million paid subscriptions announced November 2021",
+        "Up from 250,000 in December 2020 (4x in 11 months)",
+        "Zero profits at this milestone",
+        "Top 10 writers: $20M collective annual revenue (up from $7M prior year)",
+        "High-profile recruits: Glenn Greenwald, Matt Taibbi, Matt Yglesias, Andrew Sullivan, Marc Stein"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_axios_substack1M.md"
+    },
+    {
+      "id": "V409",
+      "title": "What Happened To Polywork? An Eye-opening Story Of Fail Growth — Prompt-Led Product Substack",
+      "url": "https://promptledproduct.substack.com/p/what-happened-to-polywork-an-eye",
+      "type": "analysis",
+      "company": "Polywork",
+      "category": "failure",
+      "fetch_status": "success",
+      "key_facts": [
+        "Founded 2021 by Peter Johnston; closed January 31, 2025",
+        "Raised $13M total (prior to Series B — see V414 for corrected total)",
+        "Backers: Stripe Collison brothers, Alexis Ohanian, Elad Gil",
+        "Won Product Hunt Golden Kitty Award 2022",
+        "Late 2023 pivot to website builder alienated early adopters",
+        "Never disclosed user numbers or MRR"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_promptLedProduct_polywork.md"
+    },
+    {
+      "id": "V410",
+      "title": "Peter Johnston X post — Polywork shutdown announcement (@multiplay3r)",
+      "url": "https://x.com/multiplay3r/status/1873859669065978327",
+      "type": "founder_statement",
+      "company": "Polywork",
+      "category": "failure",
+      "fetch_status": "failed_paywall_reconstructed_from_secondary",
+      "confidence": "medium",
+      "key_facts": [
+        "Shut down after 3.5 years",
+        "Returned remaining capital to investors",
+        "First 18 months described as 'highlight of career'",
+        "Immediately pivoted to new AI startup"
+      ],
+      "quotes": [
+        {
+          "speaker": "Peter Johnston",
+          "text": "after 3.5 years, I made the call to shut @Polywork down and return the remaining capital to investors",
+          "confidence": "medium",
+          "source": "reconstructed from secondary reporting"
+        },
+        {
+          "speaker": "Peter Johnston",
+          "text": "building consumer social is like doing a startup on Level 900 Difficulty Mode",
+          "confidence": "medium",
+          "source": "widely quoted across secondary sources"
+        },
+        {
+          "speaker": "Peter Johnston",
+          "text": "no longer saw a viable path to Polywork becoming a gigantic business — and that was what we signed up for",
+          "confidence": "medium",
+          "source": "reconstructed from secondary reporting"
+        }
+      ],
+      "raw_file": "20260526_xPost_peterJohnstonPolywork.md"
+    },
+    {
+      "id": "V411",
+      "title": "Polywork Secures $28M Series B — BusinessWire (September 2022)",
+      "url": "https://www.businesswire.com/news/home/20220915005370/en/Polywork-Secures-%2428M-Series-B-Funding-as-it-Launches-Out-of-Private-Beta",
+      "type": "primary_source",
+      "company": "Polywork",
+      "category": "failure",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "$28M Series B led by Caffeinated Capital, September 2022",
+        "Simultaneous with public beta launch (after 18 months private beta)",
+        "Total raised: approximately $41.5-44.5M",
+        "Invite-only from 2021 through September 2022"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_businessWire_polyworkSeriesB.md"
+    },
+    {
+      "id": "V412",
+      "title": "TechCrunch: Perplexity acquires Read.cv (January 17, 2025)",
+      "url": "https://techcrunch.com/2025/01/17/perplexity-acquires-read-cv-a-social-media-platform-for-professionals/",
+      "type": "news_article",
+      "company": "Read.cv",
+      "category": "failure",
+      "fetch_status": "success",
+      "key_facts": [
+        "Founded 2021 by Andy Chung (former Facebook, Mozilla, Quip designer)",
+        "~3 employees at acquisition",
+        "Backed by F7 Ventures and Fanjul Capital (small amounts, undisclosed)",
+        "Perplexity rationale: consumer/social design talent",
+        "Platform wound down January 17, 2025; data export deadline May 16, 2025",
+        "Third Perplexity acquisition (after Carbon and Spellwise)",
+        "100K+ community members self-reported (year unspecified)"
+      ],
+      "quotes": [
+        {
+          "speaker": "Aravind Srinivas (Perplexity CEO)",
+          "text": "incredibly capable in designing and building consumer and social experiences",
+          "context": "Rationale for acquiring Read.cv team"
+        }
+      ],
+      "raw_file": "20260526_techCrunch_readCvPerplexity.md"
+    },
+    {
+      "id": "V413",
+      "title": "Hacker News: Read CV Acquired by Perplexity (item #42742241)",
+      "url": "https://news.ycombinator.com/item?id=42742241",
+      "type": "community_reaction",
+      "company": "Read.cv",
+      "category": "failure",
+      "fetch_status": "success",
+      "key_facts": [
+        "Predominantly negative sentiment",
+        "Core complaint: users used as stepping stones to founder liquidity",
+        "Andy Chung called announcement 'incredibly bittersweet'",
+        "Users immediately organized alternatives: Reactive Resume, twigg.social, tini.bio",
+        "Some credit given for Next.js data export option"
+      ],
+      "quotes": [
+        {
+          "speaker": "JadoJodo (HN user)",
+          "text": "Users are increasingly treated like stepping stools for founders...users help grow a product...get comfortable with that product, integrate it into their lives...and then it's yanked out from under them.",
+          "context": "HN reaction to Read.cv shutdown"
+        },
+        {
+          "speaker": "pixeldrifter (HN user)",
+          "text": "a betrayal",
+          "context": "Describing the acquisition as focused on cashing out rather than serving community"
+        },
+        {
+          "speaker": "dorian-graph (HN user)",
+          "text": "Yet again, let down by a centralised platform",
+          "context": "Recurring disappointment with startup social platforms"
+        },
+        {
+          "speaker": "Andy Chung (founder)",
+          "text": "incredibly bittersweet for us, as the start of this new chapter will mark the end of our time with @read_cv",
+          "context": "Founder reaction to acquisition announcement"
+        }
+      ],
+      "raw_file": "20260526_HN_readCvPerplexity.md"
+    },
+    {
+      "id": "V414",
+      "title": "LinkedIn Pulse: The quiet demise of Lunchclub (Tony Shepherd)",
+      "url": "https://www.linkedin.com/pulse/quiet-demise-lunchclub-tells-us-something-important-how-tony-shepherd-jvane",
+      "type": "analysis",
+      "company": "Lunchclub",
+      "category": "failure",
+      "fetch_status": "success",
+      "key_facts": [
+        "Lunchclub declined gradually, not dramatically — no collective mourning",
+        "Core limitation: AI matches profiles, struggles to convey reputational signal",
+        "Senior professionals require trust through context, not algorithmic serendipity",
+        "No mechanism to deepen relationships beyond initial introduction",
+        "Post-COVID normalization removed primary use case",
+        "Users quietly migrated; no successor platform emerged"
+      ],
+      "quotes": [
+        {
+          "speaker": "Article author (Tony Shepherd)",
+          "text": "AI can match profiles. It struggles to convey reputational signal.",
+          "context": "Core structural limitation of Lunchclub's model"
+        },
+        {
+          "speaker": "Article author",
+          "text": "maturity often looks like subtraction, not replacement",
+          "context": "Describing how senior professionals abandoned the platform"
+        }
+      ],
+      "raw_file": "20260526_linkedIn_lunchclubDecline.md"
+    },
+    {
+      "id": "V415",
+      "title": "CNBC: Lunchclub tops $100M valuation amid quarantine usage spike (September 2020)",
+      "url": "https://www.cnbc.com/2020/09/01/lunchclub-tops-100-million-valuation-amid-quarantine-usage-spike.html",
+      "type": "news_article",
+      "company": "Lunchclub",
+      "category": "failure",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "Founded November 2017 by Vladimir Novakovski, Scott Wu, Hayley Leibson",
+        "Seed: $4M from a16z",
+        "Series A: $24M from Coatue and Lightspeed (September 2020)",
+        "Valuation: $100M+ post-Series A",
+        "Team size at peak: 15 people",
+        "Added video chat March 2020 (COVID adaptation)",
+        "No specific MAU/DAU ever disclosed publicly"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_CNBC_lunchclubValuation.md"
+    },
+    {
+      "id": "V416",
+      "title": "Tech.co: My Path Timeline is Telling of Why the App Failed (2015)",
+      "url": "https://tech.co/news/path-failure-daum-kakao-2015-05",
+      "type": "analysis",
+      "company": "Path",
+      "category": "failure",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "Launched November 14, 2010; founders: Dave Morin, Dustin Mierau, Shawn Fanning",
+        "1.5M downloads in first 3 weeks",
+        "Google offered $100M at 3 months — Morin declined",
+        "2M users after November 2011 redesign",
+        "February 2012: privacy scandal (uploading address books without permission)",
+        "February 2013: FTC $800K fine for underage data storage",
+        "2014: lost most Western users; pivoted to Korea/Indonesia",
+        "May 2015: sold to Daum Kakao (price undisclosed)",
+        "September 2018: platform shut down",
+        "Total raised: $66.2M burned through"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_techCo_pathFailure.md"
+    },
+    {
+      "id": "V417",
+      "title": "TechCrunch: Path Sells to Daum Kakao (May 2015)",
+      "url": "https://techcrunch.com/2015/05/28/path-sells-to-daum-kakao/",
+      "type": "news_article",
+      "company": "Path",
+      "category": "failure",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "Path sold to Daum Kakao on May 28, 2015",
+        "Acquisition price: undisclosed (the $80M figure in research brief is unconfirmed by any primary source)",
+        "Dave Morin departed post-acquisition",
+        "Daum Kakao: South Korean internet conglomerate (now Kakao Corp)"
+      ],
+      "quotes": [],
+      "raw_file": "20260526_techCo_pathFailure.md"
+    },
+    {
+      "id": "V418",
+      "title": "Contra: $30M Series B announcement (Hunt Scanlon / PR Newswire 2022)",
+      "url": "https://huntscanlon.com/contra-secures-30-million-in-funding/",
+      "type": "news_article",
+      "company": "Contra",
+      "category": "failure_struggling",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "Founded 2019 by Ben Huffman and Gajus Kuizinas",
+        "Series A: $14.5M from NEA and Unusual Ventures",
+        "Series B: $30M from NEA (January 2022); total ~$44.5M",
+        "1M+ registered users claimed at Series B",
+        "November 2021: launched 100% commission-free payments as differentiator",
+        "Platform still active as of 2026 but community sentiment declining"
+      ],
+      "quotes": [],
+      "raw_file": null
+    },
+    {
+      "id": "V419",
+      "title": "Alejandro Cremades interview with Ben Huffman (Contra founder)",
+      "url": "https://alejandrocremades.com/he-raised-44-million-to-give-users-the-freedom-and-ability-to-work-independently/",
+      "type": "founder_interview",
+      "company": "Contra",
+      "category": "failure_struggling",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "Ben Huffman's background: early Stripe employee (fintech expertise)",
+        "Mission: give independent workers freedom without commission fees",
+        "Commission-free as primary differentiator",
+        "Raised $44M total to build the freelance platform for independent workers"
+      ],
+      "quotes": [],
+      "raw_file": null
+    },
+    {
+      "id": "V420",
+      "title": "Strava Wikipedia — Growth milestones and mobile expansion",
+      "url": "https://en.wikipedia.org/wiki/Strava",
+      "type": "secondary_source",
+      "company": "Strava",
+      "category": "success",
+      "fetch_status": "confirmed_via_search",
+      "key_facts": [
+        "Founded 2009, San Francisco; seed investors: Sigma Partners",
+        "2011: iOS and Android apps launched — removed Garmin dependency",
+        "2012: Running added — tripled addressable market",
+        "2016: 20 million users",
+        "2017: 28 million users; ~1M new members every 40 days",
+        "2018: 36 million; 2019: 42 million"
+      ],
+      "quotes": [],
+      "raw_file": null
+    }
+  ],
+  "data_quality_notes": {
+    "high_confidence": [
+      "GitHub: sourced from GitHub Blog primary posts + NIRA secondary",
+      "LinkedIn: confirmed from official press releases (Sequoia Nov 2003, Greylock Oct 2004, Recruiter Mar 2008)",
+      "Substack: confirmed from Contrary Research + Axios + Nasdaq for 1M milestone",
+      "Read.cv: TechCrunch primary + HN community thread"
+    ],
+    "medium_confidence": [
+      "Strava 1M users date: not confirmed precisely; estimated 2012-2013 based on mobile launch + running expansion",
+      "Polywork $1.45B valuation: cited in research brief but not confirmed in any public source found",
+      "Peter Johnston X post text: URL paywalled; content from secondary sources"
+    ],
+    "low_confidence_or_unconfirmed": [
+      "Path acquisition price ($80M): no primary or secondary source confirmed this figure; Daum Kakao never disclosed",
+      "Lunchclub formal shutdown: platform technically still live as of 2026; 'quiet demise' not official closure",
+      "Contra current fee structure: no public announcement of commission reversal found"
+    ]
+  }
+}

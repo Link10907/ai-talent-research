@@ -1,0 +1,647 @@
+{
+  "phase": "06",
+  "topic": "User Willingness Evidence — Pricing, Migration, Visibility, Retention, Data Exchange",
+  "citation_range": "V500-V599",
+  "collected_date": "2026-05-26",
+  "citations": [
+    {
+      "id": "V500",
+      "title": "Lenny's Newsletter — Paid Subscriber Deep Dive (Growth In Reverse)",
+      "url": "https://growthinreverse.com/lennys-paid-newsletter/",
+      "type": "newsletter_analysis",
+      "key_data": "18,000 paid subscribers as of April 2023; 4-5% free-to-paid conversion; ~$2M+ annual subscription revenue",
+      "date": "2024-08",
+      "confidence": "High"
+    },
+    {
+      "id": "V501",
+      "title": "Lenny's Newsletter — 1 Million Subscribers Milestone Post",
+      "url": "https://www.lennysnewsletter.com/p/1000000",
+      "type": "primary_source",
+      "key_data": "1,000,000 total subscribers reached March 4, 2025; paid count not disclosed; Substack Recommendations was key growth driver",
+      "date": "2025-03",
+      "confidence": "High"
+    },
+    {
+      "id": "V502",
+      "title": "Lenny Rachitsky Podcast Revenue — CNBC",
+      "url": "https://www.cnbc.com/2024/01/11/lenny-rachitsky-podcast-brings-in-more-than-500k-a-year-heres-how.html",
+      "type": "press",
+      "key_data": "Podcast revenue: $500,000+/year as of January 2024",
+      "date": "2024-01",
+      "confidence": "High"
+    },
+    {
+      "id": "V503",
+      "title": "Substack Average Paid Conversion Rate Analysis (Really Good Business Ideas)",
+      "url": "https://www.reallygoodbusinessideas.com/p/substack-average-paid-subscriber-conversion-rate",
+      "type": "independent_analysis",
+      "key_data": "Median paid conversion: 3% (not 5-10% as Substack claims); tech niche: 8%; only 20% of publications exceed 5%",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V504",
+      "title": "Substack User and Revenue Statistics (Backlinko)",
+      "url": "https://backlinko.com/substack-users",
+      "type": "aggregated_stats",
+      "key_data": "50M active subscriptions (2025); 5M paid (March 2025); gross writer revenue $370M (2024), $450M (2025); Substack revenue $37M (2024)",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V505",
+      "title": "Substack Revenue — Sacra Analysis",
+      "url": "https://sacra.com/c/substack/",
+      "type": "financial_analysis",
+      "key_data": "Substack $45M ARR July 2025; 100,000 monetizing publications (April 2026); 17,000 with recurring paid income",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V506",
+      "title": "LinkedIn Premium Tops $1.7B Revenue (LinkedIn Official)",
+      "url": "https://news.linkedin.com/2024/march/LinkedIn-Premium-subscription-tops-1-7B-in-revenue-fueled-by-ai-features",
+      "type": "primary_source",
+      "key_data": "$1.7B Premium revenue in 12-month period; Premium sign-ups +51% FY2024; 40% of Premium subs using AI features",
+      "date": "2024-03",
+      "confidence": "High"
+    },
+    {
+      "id": "V507",
+      "title": "LinkedIn Passes $2B Premium Revenue (TechCrunch)",
+      "url": "https://techcrunch.com/2025/01/29/linkedin-passes-2b-in-premium-revenues-in-12-months-with-overall-revenues-up-9-on-the-year/",
+      "type": "press",
+      "key_data": "$2B+ Premium revenue milestone; total LinkedIn revenue $17.81B FY2025 (+9% YoY)",
+      "date": "2025-01",
+      "confidence": "High"
+    },
+    {
+      "id": "V508",
+      "title": "LinkedIn Statistics 2026 — DemandSage",
+      "url": "https://www.demandsage.com/linkedin-statistics/",
+      "type": "aggregated_stats",
+      "key_data": "175M+ estimated Premium subscribers; 900M+ total members",
+      "date": "2026",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V509",
+      "title": "LinkedIn #OpenToWork — 220 Million Users (CNBC Jan 2025)",
+      "url": "https://www.cnbc.com/2025/01/23/recruiters-weigh-in-if-linkedins-open-to-work-feature-helps-or-hurts.html",
+      "type": "press",
+      "key_data": "220M+ total open-to-work signals (public + private); 35% YoY increase; feature launched 2020",
+      "date": "2025-01",
+      "confidence": "High"
+    },
+    {
+      "id": "V510",
+      "title": "LinkedIn #OpenToWork 40 Million Public Badge Users (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/millions-opentowork-badge-linkedin-recruiters-110526646.html",
+      "type": "press",
+      "key_data": "40M public badge users; 200M private signal; badge doubles recruiter contact rate",
+      "date": "2024",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V511",
+      "title": "ChatGPT Subscribers Nearly Tripled to 15.5M in 2024 (The Information)",
+      "url": "https://www.theinformation.com/articles/chatgpt-subscribers-nearly-tripled-to-15-5-million-in-2024",
+      "type": "press",
+      "key_data": "15.5M paid subscribers end 2024 (from 5.8M in 2023); disclosed to shareholders",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V512",
+      "title": "ChatGPT Statistics 2026 — TechnologyChecker",
+      "url": "https://technologychecker.io/blog/chatgpt-statistics",
+      "type": "aggregated_stats",
+      "key_data": "50M+ paying subscribers all tiers H2 2025; 900M weekly active users (2026)",
+      "date": "2026",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V513",
+      "title": "Cursor AI — Notorious PLG Analysis (Fastest-Growing Coding Tool)",
+      "url": "https://www.notoriousplg.ai/p/notorious-how-an-ai-coding-tool-scaled",
+      "type": "analysis",
+      "key_data": "36% freemium conversion rate; 360,000+ paying users (early 2025); $4M→$48M ARR in 6 months (2024)",
+      "date": "2024-2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V514",
+      "title": "Cursor Hits $1B ARR — SaaStr",
+      "url": "https://www.saastr.com/cursor-hit-1b-arr-in-17-months-the-fastest-b2b-to-scale-ever-and-its-not-even-close/",
+      "type": "analysis",
+      "key_data": "$1B ARR in 24 months; fastest B2B SaaS ever; $20/month Pro; $40/month Business",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V515",
+      "title": "Claude Statistics 2026 — Business of Apps",
+      "url": "https://www.businessofapps.com/data/claude-statistics/",
+      "type": "aggregated_stats",
+      "key_data": "~80% Anthropic revenue from business/API; consumer subscriber count not disclosed",
+      "date": "2026",
+      "confidence": "Low"
+    },
+    {
+      "id": "V516",
+      "title": "Read.cv — IndieWeb Documentation",
+      "url": "https://indieweb.org/Read.cv",
+      "type": "community_documentation",
+      "key_data": "Founded 2021; acquired by Perplexity Jan 2025; shutdown May 16, 2025; user count never disclosed",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V517",
+      "title": "Perplexity Acquires Read.cv (Cosmico)",
+      "url": "https://www.cosmico.org/perplexity-acquires-professional-networking-platform-read-cv/",
+      "type": "press",
+      "key_data": "Read.cv team joined Perplexity Jan 2025; platform itself shut down May 2025",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V518",
+      "title": "What Happened to Polywork (PromptLedProduct Substack)",
+      "url": "https://promptledproduct.substack.com/p/what-happened-to-polywork-an-eye",
+      "type": "analysis",
+      "key_data": "Shutdown Jan 31, 2025; raised $13M; pivot to website builder failed; founder returned capital to investors",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V519",
+      "title": "Polywork Shutdown — Hacker News Discussion",
+      "url": "https://news.ycombinator.com/item?id=42554740",
+      "type": "community",
+      "key_data": "Community reaction to shutdown; founder Peter Johnston post-mortem",
+      "date": "2025-01",
+      "confidence": "High"
+    },
+    {
+      "id": "V520",
+      "title": "Bento.me Shutting Down — Own.page Alternatives Guide",
+      "url": "https://own.page/blog/bento-alternatives",
+      "type": "secondary",
+      "key_data": "Bento.me shutdown Feb 13, 2026 after Linktree acquisition; all data deleted; user count never disclosed",
+      "date": "2026",
+      "confidence": "High"
+    },
+    {
+      "id": "V521",
+      "title": "Mastodon 1.8M MAU in 2022 — TechCrunch",
+      "url": "https://techcrunch.com/2023/10/02/amid-twitter-chaos-mastodon-grew-donations-488-in-2022-reached-1-8m-monthly-active-users/",
+      "type": "press",
+      "key_data": "1.8M MAU end 2022; 5.8M registered; 75,000 new users/day at peak (Nov 2022); donations grew 488%",
+      "date": "2023-10",
+      "confidence": "High"
+    },
+    {
+      "id": "V522",
+      "title": "Bluesky Growth Statistics 2026 — SociallyIn",
+      "url": "https://sociallyin.com/resources/bluesky-statistics/",
+      "type": "aggregated_stats",
+      "key_data": "10M users Sept 2024; 13M Oct 2024; 20M+ Nov 2024; 27.4M Jan 2025; 40.2M Nov 2025",
+      "date": "2026",
+      "confidence": "High"
+    },
+    {
+      "id": "V523",
+      "title": "Is Bluesky Dying? Growth Data Analysis (BluePilot)",
+      "url": "https://getbluepilot.com/blog/is-bluesky-dying-growth-data-and-2026-platform-outlook",
+      "type": "analysis",
+      "key_data": "Peak single-day likes: 2.79M (Nov 18, 2024); June 2025: 998K likes (-64%); engagement declining post-election spike",
+      "date": "2026",
+      "confidence": "High"
+    },
+    {
+      "id": "V524",
+      "title": "Threads Statistics 2026 — DemandSage",
+      "url": "https://www.demandsage.com/threads-statistics/",
+      "type": "aggregated_stats",
+      "key_data": "100M users first month (July 2023); 41M DAU launch day; 10.3M DAU by August 2023 (-75%); 400M MAU August 2025; 150M DAU October 2025",
+      "date": "2026",
+      "confidence": "High"
+    },
+    {
+      "id": "V525",
+      "title": "The Great Substack Migration — Growth In Reverse",
+      "url": "https://growthinreverse.com/great-substack-migration/",
+      "type": "analysis",
+      "key_data": "Twitter creator exodus 2022-2024; notable creators migrated to Substack; Notes feature launched April 2023 as Twitter alternative",
+      "date": "2023-2024",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V526",
+      "title": "Wellfound Candidates Overview",
+      "url": "https://wellfound.com/candidates/overview",
+      "type": "primary_source",
+      "key_data": "12M active candidates (2025); 50% software engineers; 150,000+ active roles; effectively 100% open-to-work by platform design",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V527",
+      "title": "Maven — Masterclass in Online Course Design (Philippa Hardman Substack)",
+      "url": "https://drphilippahardman.substack.com/p/maven-a-masterclass-in-great-online",
+      "type": "analysis",
+      "key_data": "75% course completion rate (May 2021 data); cohort model explanation",
+      "date": "2021-2022",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V528",
+      "title": "Cohort-Based Learning Statistics (Learnopoly)",
+      "url": "https://learnopoly.com/cohort-based-learning-statistics/",
+      "type": "aggregated_stats",
+      "key_data": "Cohort completion: 85-96%; self-paced completion: 5-15%; Maven positioned as 75% completion",
+      "date": "2025",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V529",
+      "title": "Reforge Membership Changes December 2024",
+      "url": "https://reforge.helpscoutdocs.com/article/213-changes-to-the-reforge-membership-december-2024",
+      "type": "primary_source",
+      "key_data": "$1,995/year individual membership; Teams Starter $9,995/10 seats; Teams Scale $23,995/30 seats; 1 cohort pass included",
+      "date": "2024-12",
+      "confidence": "High"
+    },
+    {
+      "id": "V530",
+      "title": "Reforge Marketing Mix Analysis (CanvasBusinessModel)",
+      "url": "https://canvasbusinessmodel.com/products/reforge-marketing-mix",
+      "type": "analysis",
+      "key_data": "50,000+ professionals; 15% subscriber growth Q1 2025; 30% platform usage growth 2024; 90% subscription revenue",
+      "date": "2024-2025",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V531",
+      "title": "Hampton Community Profile (Community.inc)",
+      "url": "https://community.inc/article/hampton",
+      "type": "profile",
+      "key_data": "1,000+ members; $8,500/year; $8M ARR; 95+ peer groups of 5-8; average member revenue $23M",
+      "date": "2024-2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V532",
+      "title": "Hampton FAQ — Cost and Requirements",
+      "url": "https://joinhampton.com/faq",
+      "type": "primary_source",
+      "key_data": "$8,500/year membership; $3M revenue or $10M exit requirement",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V533",
+      "title": "South Park Commons FAQ",
+      "url": "https://www.southparkcommons.com/faq/",
+      "type": "primary_source",
+      "key_data": "6-month exploratory residency; free (fund-backed); 1,000 members over decade; 70% start companies; 2024 international expansion to Bengaluru",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V534",
+      "title": "23andMe Bankruptcy and Genetic Data — NPR",
+      "url": "https://www.npr.org/2025/03/24/nx-s1-5338622/23andme-bankruptcy-genetic-data-privacy",
+      "type": "press",
+      "key_data": "Chapter 11 filed March 23, 2025; 15M+ genetic profiles; TTAM acquired for $305M; 80% opted into research",
+      "date": "2025-03",
+      "confidence": "High"
+    },
+    {
+      "id": "V535",
+      "title": "23andMe Rise and Fall — Drug Discovery Trends",
+      "url": "https://www.drugdiscoverytrends.com/from-big-pharma-darling-to-bankruptcy-how-23andme-lost-99-6-of-its-value-after-failed-drug-discovery-gambit/",
+      "type": "press",
+      "key_data": "GSK $300M deal 2018 for 5M customer data; stock lost 99.6% of value; failed drug discovery pivot",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V536",
+      "title": "Bankruptcy, Genetic Information, and Privacy — NEJM",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2415835",
+      "type": "academic",
+      "key_data": "Federal law inadequate for genetic data in bankruptcy; privacy statement allowed transfer; users could not prevent data sale",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V537",
+      "title": "What Happens to Your Genetic Data if 23andMe Collapses — Harvard Gazette",
+      "url": "https://news.harvard.edu/gazette/story/2025/03/what-happens-to-your-genetic-data-if-23andme-collapses/",
+      "type": "academic",
+      "key_data": "Privacy statements reserve right to transfer data in bankruptcy; 28 state AGs challenged the transfer",
+      "date": "2025-03",
+      "confidence": "High"
+    },
+    {
+      "id": "V538",
+      "title": "Strava Revenue and Usage Statistics (Business of Apps)",
+      "url": "https://www.businessofapps.com/data/strava-statistics/",
+      "type": "aggregated_stats",
+      "key_data": "135M users (2024); 180M (2025); $163.4M revenue (2024); $415M (2025); 2% paid penetration; 90% revenue from premium",
+      "date": "2026",
+      "confidence": "High"
+    },
+    {
+      "id": "V539",
+      "title": "Strava Privacy Audit 2026 (Terms.law)",
+      "url": "https://terms.law/Privacy-Watchdog/fitness-apps/strava/",
+      "type": "privacy_audit",
+      "key_data": "Grade F (32/100); extensive data collection; default public activities; third-party sharing",
+      "date": "2026",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V540",
+      "title": "Strava Activity Privacy Controls (Strava Support)",
+      "url": "https://support.strava.com/hc/en-us/articles/216919377-Activity-Privacy-Controls",
+      "type": "primary_source",
+      "key_data": "Default: activities public to 'Everyone'; opt-out for Heatmap/Metro; must opt-out, not opt-in for privacy",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V541",
+      "title": "Whoop Revenue and Valuation — Sacra",
+      "url": "https://sacra.com/c/whoop/",
+      "type": "financial_analysis",
+      "key_data": "2.5M members (2025); $260M+ annual revenue; ARR $350M+; 2025 bookings $1B+",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V542",
+      "title": "Whoop Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/WHOOP",
+      "type": "reference",
+      "key_data": "Subscription model: $199-359/year (tiered 2024-2025); previous model $30/month flat; 56 countries",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V543",
+      "title": "Spotify Wrapped 2024 — Spotify Newsroom",
+      "url": "https://newsroom.spotify.com/2024-12-04/10-years-spotify-wrapped/",
+      "type": "primary_source",
+      "key_data": "200M engaged users first 24 hours; 10.5M active sharers; 500M shares (+41% YoY); 184 markets; app +40% engagement spike",
+      "date": "2024-12",
+      "confidence": "High"
+    },
+    {
+      "id": "V544",
+      "title": "Spotify Wrapped 2024 — Music Business Worldwide",
+      "url": "https://www.musicbusinessworldwide.com/spotify-wrapped-campaign-hit-200m-engaged-users-in-24-hours-a-19-yoy-increase/",
+      "type": "press",
+      "key_data": "200M engaged in 24 hours; 19% YoY increase; 2.1M social media mentions in 48 hours",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V545",
+      "title": "Spotify Wrapped Breaks Record — Variety 2025",
+      "url": "https://variety.com/2025/music/news/spotify-wrapped-breaks-own-record-250-million-engagements-1236603493/",
+      "type": "press",
+      "key_data": "250M engagements in less than 3 days (2025 Wrapped); new record",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V546",
+      "title": "Figma S-1 Analysis — Tom Tunguz",
+      "url": "https://tomtunguz.com/figma-s1-analysis/",
+      "type": "analysis",
+      "key_data": "Net Dollar Retention 134% (2024); $749M revenue (2024); 13M+ MAU; Organization + Enterprise = 70% of revenue",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V547",
+      "title": "Figma S-1 Breakdown — Mostly Metrics",
+      "url": "https://www.mostlymetrics.com/p/figma-ipo-s1-breakdown",
+      "type": "analysis",
+      "key_data": "$749M revenue 2024; $912M ARR run-rate (Q1 2025); 46% YoY growth; Rule of 40 score: 63",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V548",
+      "title": "Figma Pricing Page",
+      "url": "https://www.figma.com/pricing/",
+      "type": "primary_source",
+      "key_data": "Starter ~$12/editor/month; Organization $45/editor/month; Enterprise custom; Dev Seats available",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V549",
+      "title": "Reforge Pricing Page",
+      "url": "https://www.reforge.com/pricing",
+      "type": "primary_source",
+      "key_data": "$1,995/year individual; $9,995 Starter Teams (10 seats); $23,995 Scale Teams (30 seats)",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V550",
+      "title": "Rise of Bluesky — arXiv Academic Paper",
+      "url": "https://arxiv.org/html/2504.12902v1",
+      "type": "academic",
+      "key_data": "Academic analysis of Bluesky user growth and migration patterns from X; demographic breakdown",
+      "date": "2025-04",
+      "confidence": "High"
+    },
+    {
+      "id": "V551",
+      "title": "Claude Revenue Statistics 2026 — mlq.ai",
+      "url": "https://mlq.ai/news/anthropics-claude-experiences-record-surge-in-paid-subscriber-growth-throughout-2026/",
+      "type": "press",
+      "key_data": "Claude paid subscriptions doubled in early 2026; record new subscriber growth Jan-Feb 2026; majority opted for $20/month Pro",
+      "date": "2026",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V552",
+      "title": "Strava The Whole Foods of Social Networks — Sacra",
+      "url": "https://sacra.com/research/the-whole-foods-of-social-networks/",
+      "type": "financial_analysis",
+      "key_data": "$265M revenue; premium penetration low at 2% of registered users; Strava Metro (data sales to cities) as revenue stream",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V553",
+      "title": "23andMe Privacy and National Security — Lawfare",
+      "url": "https://www.lawfaremedia.org/article/privacy--consent--and-national-security-after-the-23andme-bankruptcy",
+      "type": "legal_analysis",
+      "key_data": "National security concerns over genetic data transfer; 28 state AGs challenged data sale in bankruptcy court",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V554",
+      "title": "Pavilion Community — 10,000+ Members",
+      "url": "https://www.joinpavilion.com/membership",
+      "type": "primary_source",
+      "key_data": "10,000+ GTM professionals; Executive and Associate membership tiers; includes Slack, events, Pavilion University",
+      "date": "2024",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V555",
+      "title": "Notion Pricing — Current Plans",
+      "url": "https://www.notion.com/pricing",
+      "type": "primary_source",
+      "key_data": "Free tier; Plus $10/month ($8 annual); Business $15/seat/month; AI add-on $8/seat/month",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V556",
+      "title": "What Is the SPC Member Residency — South Park Commons Blog",
+      "url": "https://blog.southparkcommons.com/p/what-is-the-spc-member-residency",
+      "type": "primary_source",
+      "key_data": "6-month residency; fund-supported (no fees); Founder Fellowship: $400K for 7% equity; Bengaluru location 2024",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V557",
+      "title": "How Spotify Converts 40% Free Users to Paid — Psychology Analysis (MackCollier)",
+      "url": "https://mackcollier.substack.com/p/how-spotify-converts-40-of-free-users",
+      "type": "analysis",
+      "key_data": "Spotify's 40% free-to-paid conversion via Wrapped and premium value loop; conversion psychology",
+      "date": "2024",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V558",
+      "title": "Figma Hit $1B Revenue and 450K Customers (GetLatka)",
+      "url": "https://getlatka.com/companies/figma",
+      "type": "aggregated_stats",
+      "key_data": "Figma $1B revenue and 450K customers milestone in 2025",
+      "date": "2025",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V559",
+      "title": "Bluesky User Demographics 2025 (Techpoint Africa)",
+      "url": "https://techpoint.africa/guide/bluesky-user-demographics-age-gender-growth-trends/",
+      "type": "aggregated_stats",
+      "key_data": "56% users age 18-34; 30% age 18-24; +174% growth Sept-Jan 2025",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V560",
+      "title": "Instagram Threads Engagement Declined 2025 (Social Media Today)",
+      "url": "https://www.socialmediatoday.com/news/instagram-linkedin-and-threads-engagement-declined-in-2025/814141/",
+      "type": "press",
+      "key_data": "Threads, Instagram, LinkedIn engagement all declined in 2025; avg time on Threads Android: 34 min/month vs X: 5h 19min/month",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V561",
+      "title": "Cursor AI Adoption Trends — Opsera",
+      "url": "https://opsera.ai/blog/cursor-ai-adoption-trends-real-data-from-the-fastest-growing-coding-tool/",
+      "type": "analysis",
+      "key_data": "40,000 customers August 2024; enterprise 25% of revenue by late 2024; $400M ARR late 2024",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V562",
+      "title": "Substack Paid-Free Ratio Analysis 2025 (Stevenscesaon)",
+      "url": "https://stevenscesaon.substack.com/p/substack-paidfree-ratio-analyses",
+      "type": "analysis",
+      "key_data": "Real-data analysis of Substack paid/free ratios; confirms median below 5%",
+      "date": "2025",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V563",
+      "title": "Mastodon Statistics 2026 — MarketFul",
+      "url": "https://marketful.com/mastodon-statistics",
+      "type": "aggregated_stats",
+      "key_data": "10.5M registered; 750K-1M MAU; 90%+ abandonment rate; Nov 2022 peak 2.6M new accounts in weeks",
+      "date": "2026",
+      "confidence": "High"
+    },
+    {
+      "id": "V564",
+      "title": "Lenny's Newsletter Bundle Hack — StartupSpells",
+      "url": "https://startupspells.com/p/lennys-newsletter-upsell-200-bundle-350-tier-1m-revenue",
+      "type": "analysis",
+      "key_data": "Bundle pricing tiers ($200/$350) generated $1M+ revenue in single email; bundle strategy for paid growth",
+      "date": "2025",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V565",
+      "title": "Whoop vs Oura Comparison — Substack Analysis",
+      "url": "https://ringingthebell.substack.com/p/whoop-vs-oura-the-10-billion-question",
+      "type": "analysis",
+      "key_data": "Whoop tiered pricing $199-359/year; 2.5M members; continuous biometric monitoring model",
+      "date": "2025",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V566",
+      "title": "23andMe Rise and Fall — CNN Charts",
+      "url": "https://www.cnn.com/2025/03/30/us/23andme-bankruptcy-data-hnk-dg",
+      "type": "press",
+      "key_data": "Visual timeline of 23andMe rise and fall; bankruptcy context",
+      "date": "2025-03",
+      "confidence": "High"
+    },
+    {
+      "id": "V567",
+      "title": "Spotify Wrapped — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spotify_Wrapped",
+      "type": "reference",
+      "key_data": "Annual feature since 2015; comprehensive history of Wrapped milestones and engagement data",
+      "date": "2024",
+      "confidence": "High"
+    },
+    {
+      "id": "V568",
+      "title": "Wellfound (Formerly AngelList) Guide 2026 (BestJobSearchApps)",
+      "url": "https://bestjobsearchapps.com/articles/en/using-wellfound-formerly-angellist-for-startup-job-hunting-guide-for-2026-job-seekers",
+      "type": "analysis",
+      "key_data": "12M active candidates; 150K+ active roles; 50% software engineers; startup-focused",
+      "date": "2026",
+      "confidence": "Medium"
+    },
+    {
+      "id": "V569",
+      "title": "Precarious Future of Consumer Genetic Privacy — NIH PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12810892/",
+      "type": "academic",
+      "key_data": "Analysis of 23andMe bankruptcy implications for genetic privacy law; opt-in research participation rates",
+      "date": "2025",
+      "confidence": "High"
+    },
+    {
+      "id": "V570",
+      "title": "Hampton Sam Parr Membership Announcement — X Post",
+      "url": "https://x.com/thesamparr/status/1829138094064390203",
+      "type": "primary_source",
+      "key_data": "Revenue minimum raised from $1M to $3M (August 2024); added 10-20 new groups per quarter",
+      "date": "2024-08",
+      "confidence": "High"
+    }
+  ]
+}
