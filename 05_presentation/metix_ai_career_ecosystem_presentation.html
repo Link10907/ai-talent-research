@@ -5,96 +5,147 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Metix.ai｜AI 时代职业探索与机会网络</title>
 <style>
-:root{--bg:#f7f8fb;--ink:#111827;--muted:#5b6475;--line:#e1e7f0;--blue:#2f6df6;--deep:#071633;--green:#16a37b;--soft:#eef2f7}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;line-height:1.62}a{color:var(--blue);text-decoration:none}.wrap{max-width:1120px;margin:0 auto;padding:0 28px}.nav{position:sticky;top:0;z-index:20;background:rgba(247,248,251,.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.navin{max-width:1120px;margin:auto;padding:14px 28px;display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800}.brand span{color:var(--blue)}.nav a{font-size:13px;color:var(--muted);margin-left:12px}.hero{min-height:88vh;display:flex;align-items:center}.eyebrow{color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.label{display:inline-block;margin-top:22px;padding:8px 12px;border-radius:999px;background:#e9f0ff;color:#1d4ed8;font-size:13px;font-weight:800}.hero h1{font-size:58px;line-height:1.05;letter-spacing:-2px;margin:18px 0;max-width:960px}.hero p{font-size:21px;color:#334155;max-width:940px}.hero-grid,.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.mini,.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 14px 42px rgba(15,23,42,.06)}.mini b,.card b{display:block;color:var(--ink);margin-bottom:6px}.mini span,.card p,.card li{color:var(--muted)}section{padding:72px 0;border-top:1px solid var(--line)}h2{font-size:38px;line-height:1.15;letter-spacing:-1px;margin:0 0 14px}.sub{font-size:18px;color:var(--muted);max-width:880px;margin:0 0 30px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.dark{background:linear-gradient(135deg,#071633,#123373);color:#fff;border-radius:28px;padding:32px}.dark p{color:#dbe7ff}.steps{display:grid;gap:10px;margin-top:18px}.step{display:grid;grid-template-columns:30px 1fr;gap:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:12px}.step b{width:30px;height:30px;border-radius:10px;display:grid;place-items:center;background:#fff;color:#071633}.step span{color:#eef4ff;font-size:14px}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:24px 0}.flow div{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}.flow b{display:block}.flow span{font-size:13px;color:var(--muted)}.module{display:grid;grid-template-columns:.75fr 1.25fr;gap:24px;margin-top:24px}.module-title{position:sticky;top:82px;align-self:start}.module-title h3{font-size:28px;margin:0 0 8px}.num{width:42px;height:42px;border-radius:14px;background:var(--deep);color:#fff;display:grid;place-items:center;font-weight:800;margin-bottom:16px}.point{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;margin-bottom:12px}.point p{margin:6px 0 0;color:var(--muted)}.quote{font-size:27px;line-height:1.32;font-weight:800;letter-spacing:-.5px;background:#fff;border:1px solid var(--line);border-radius:26px;padding:28px}.pill{display:inline-block;border:1px solid #b9ebdc;background:#e8fbf5;color:#047857;border-radius:999px;padding:7px 10px;font-size:13px;font-weight:700}.table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:#fff}.table th,.table td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.table th{background:#f1f5f9}.table tr:last-child td{border-bottom:0}.table td{color:var(--muted)}.metric{font-size:30px;font-weight:900;color:var(--blue);line-height:1.1}.source{font-size:13px;color:var(--muted)}.metix{background:linear-gradient(135deg,#071633,#102a61);color:#fff}.metix h2,.metix h3,.metix p,.metix li{color:#fff}.metix .card{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);box-shadow:none}.metix .card p,.metix .card li{color:#dbe7ff}.footer{padding:34px 0;color:var(--muted);font-size:13px}@media(max-width:920px){.hero h1{font-size:38px}.hero-grid,.grid4,.grid3,.grid2,.flow,.module{grid-template-columns:1fr}.module-title{position:static}.nav a{display:none}}
+:root{--bg:#f7f8fb;--ink:#111827;--muted:#5b6475;--soft:#eef2f7;--line:#e1e7f0;--blue:#2f6df6;--deep:#071633;--green:#16a37b;--purple:#6d5dfc}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;line-height:1.62}a{color:var(--blue);text-decoration:none}.wrap{max-width:1120px;margin:0 auto;padding:0 28px}.nav{position:sticky;top:0;z-index:20;background:rgba(247,248,251,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.navin{max-width:1120px;margin:auto;padding:14px 28px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:800;letter-spacing:-.02em}.brand span{color:var(--blue)}.nav a{font-size:13px;color:var(--muted);margin-left:12px}.hero{min-height:90vh;display:flex;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.dot{width:8px;height:8px;border-radius:50%;background:var(--blue)}.label{display:inline-block;margin-top:24px;padding:9px 13px;border-radius:999px;background:#e9f0ff;color:#1d4ed8;font-size:13px;font-weight:800}.hero h1{font-size:58px;line-height:1.05;letter-spacing:-2px;margin:18px 0;max-width:960px}.hero p{font-size:21px;color:#334155;max-width:940px}.hero-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:36px}.mini{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:0 14px 42px rgba(15,23,42,.06)}.mini b{display:block;font-size:17px;margin-bottom:6px}.mini span{font-size:14px;color:var(--muted)}section{padding:76px 0;border-top:1px solid var(--line)}h2{font-size:38px;line-height:1.15;letter-spacing:-1px;margin:0 0 14px}.sub{font-size:18px;color:var(--muted);max-width:900px;margin:0 0 32px}.grid{display:grid;gap:20px}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:0 16px 48px rgba(15,23,42,.06)}.card h3{font-size:22px;margin:0 0 10px}.card p,.card li{color:var(--muted)}.story{background:#fff}.story-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:22px}.story-main{background:linear-gradient(135deg,#071633,#123373);border-radius:28px;padding:32px;color:#fff}.story-main h3{font-size:34px;line-height:1.18;letter-spacing:-.8px;margin:12px 0}.story-main p{color:#dbe7ff;font-size:18px}.small-label{display:inline-block;padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.story-steps{display:grid;gap:10px;margin-top:18px}.story-step{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:12px}.story-step b{width:28px;height:28px;border-radius:10px;display:grid;place-items:center;background:#fff;color:#071633}.story-step span{color:#eef4ff;font-size:14px}.benefit-list{display:grid;gap:12px}.benefit{background:#f8fafc;border:1px solid var(--line);border-radius:18px;padding:18px}.benefit strong{display:block;color:var(--ink);margin-bottom:4px}.benefit span{color:var(--muted);font-size:14px}.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}.flowbox{background:linear-gradient(180deg,#ffffff,#f8fbff);border:1px solid var(--line);border-radius:20px;padding:20px}.flowbox strong{display:block;font-size:18px}.flowbox small{display:block;color:var(--muted);margin-top:6px}.num{width:42px;height:42px;border-radius:14px;background:var(--deep);color:#fff;display:grid;place-items:center;font-weight:800;margin-bottom:18px}.module{display:grid;grid-template-columns:.75fr 1.25fr;gap:24px;align-items:start;margin-top:24px}.module-title{position:sticky;top:82px}.module-title h3{font-size:28px;margin:0 0 8px}.module-title p{color:var(--muted)}.module-detail{display:grid;gap:14px}.point{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px}.point p{margin:6px 0 0;color:var(--muted)}.connector{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.connector .card{padding:20px}.graph-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:26px;position:relative;overflow:hidden}.graph-card:before{content:"";position:absolute;right:-38px;top:-38px;width:115px;height:115px;border-radius:50%;background:#e9f0ff}.graph-card h3,.graph-card p,.graph-card li{position:relative}.proofpath{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:26px 0}.proofpath div{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}.proofpath b{display:block}.proofpath span{font-size:13px;color:var(--muted)}.example{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px}.example-head{display:flex;justify-content:space-between;gap:14px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:16px}.tag{display:inline-block;border:1px solid #b9ebdc;background:#e8fbf5;color:#047857;border-radius:999px;padding:7px 10px;font-size:13px;font-weight:700}.tag.blue{background:#e9f0ff;border-color:#c8d8ff;color:#1d4ed8}.list{padding-left:18px;margin:8px 0}.list li{margin:8px 0;color:var(--muted)}.trust{display:grid;grid-template-columns:1fr 1fr;gap:18px}.checkin{display:grid;grid-template-columns:1fr 1fr;gap:22px}.checkin-panel{background:linear-gradient(135deg,#fff,#f8fbff);border:1px solid var(--line);border-radius:26px;padding:26px}.check-row{display:grid;grid-template-columns:36px 1fr;gap:12px;margin:12px 0}.check-row b{width:36px;height:36px;border-radius:12px;background:#e8fbf5;color:#047857;display:grid;place-items:center}.quote{font-size:28px;line-height:1.3;font-weight:800;letter-spacing:-.6px;background:#fff;border:1px solid var(--line);border-radius:26px;padding:30px}.evidence{display:grid;gap:16px}.ev{display:grid;grid-template-columns:.9fr 1fr 1.2fr;background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden}.ev>div{padding:20px;border-right:1px solid var(--line)}.ev>div:last-child{border-right:0}.ev .source{background:#f8fafc}.ev h3{font-size:18px;margin:0 0 8px}.ev p{color:var(--muted);margin:0}.metric{font-size:30px;font-weight:900;color:var(--blue);line-height:1.1;margin-bottom:6px}.metix{background:linear-gradient(135deg,#071633,#102a61);color:#fff}.metix h2,.metix h3,.metix p,.metix li{color:#fff}.metix .card{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.18);box-shadow:none}.metix .card p,.metix .card li{color:#dbe7ff}.matrix{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid var(--line);border-radius:18px;background:#fff}.matrix th,.matrix td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.matrix th{background:#f1f5f9}.matrix tr:last-child td{border-bottom:0}.matrix td{color:var(--muted)}.sources{display:grid;grid-template-columns:1fr 1fr;gap:14px}.src{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}.src b{display:block;margin-bottom:5px}.src span{color:var(--muted);font-size:13px}.footer{padding:36px 0;color:var(--muted);font-size:13px}.clean-list{padding-left:18px;margin:8px 0 0}.clean-list li{margin:8px 0}@media(max-width:920px){.hero h1{font-size:38px}.hero-grid,.story-grid,.flow,.g2,.g3,.g4,.module,.connector,.proofpath,.trust,.checkin,.ev,.sources{grid-template-columns:1fr}.module-title{position:static}.nav a{display:none}.ev>div{border-right:0;border-bottom:1px solid var(--line)}.ev>div:last-child{border-bottom:0}.example-head{display:block}}
 </style>
 </head>
 <body>
-<nav class="nav"><div class="navin"><div class="brand">Metix<span>.ai</span> Career Network</div><div><a href="#core">目的</a><a href="#cvalue">C端利好</a><a href="#sources">证据源</a><a href="#graph">能力图谱</a><a href="#proof">证明</a><a href="#growth">打卡</a><a href="#metix">B端</a></div></div></nav>
+<nav class="nav"><div class="navin"><div class="brand">Metix<span>.ai</span> Career Network</div><div><a href="#core">目的</a><a href="#cvalue">C端利好</a><a href="#sources">账号连接</a><a href="#modules">模块</a><a href="#proof">证明机制</a><a href="#growth">打卡</a><a href="#evidence">论据</a><a href="#metix">B端</a></div></div></nav>
 
-<header class="hero wrap" id="core"><div>
-  <div class="eyebrow">First-principles Product Thesis</div>
-  <div class="label">第一性目的</div>
-  <h1>用真实 C 端价值，补全 Metix.ai 的候选人数据生态。</h1>
-  <p>项目的核心目的，是持续获取候选人的能力、技能、简历反馈、行动证明和机会偏好，反哺 Metix.ai / openjobs-recruiter 的候选人搜索、匹配和触达。前台必须先给用户明确收益，后台才能形成高质量职业数据。</p>
-  <div class="hero-grid">
-    <div class="mini"><b>用户为什么来</b><span>AI 变化太快，需要知道新方向、新技能、新机会。</span></div>
-    <div class="mini"><b>为什么现在成立</b><span>AI 降低学习和跨领域试错门槛，职业路径被重新打开。</span></div>
-    <div class="mini"><b>用户得到什么</b><span>职业雷达、账号连接、能力图谱、证明框架、成长建议。</span></div>
-    <div class="mini"><b>平台沉淀什么</b><span>兴趣、现有能力、潜在能力、泛化能力、Proof、简历反馈和机会偏好。</span></div>
+<header class="hero wrap" id="core">
+  <div>
+    <div class="eyebrow"><span class="dot"></span> First-principles Product Thesis</div>
+    <div class="label">第一性目的</div>
+    <h1>用真实 C 端价值，补全 Metix.ai 的候选人数据生态。</h1>
+    <p>项目的核心目的，是持续获取候选人的能力、技能、简历反馈、行动证明和机会偏好，反哺 Metix.ai / openjobs-recruiter 的候选人搜索、匹配和触达。前台必须先给用户明确收益，后台才能形成高质量职业数据。</p>
+    <div class="hero-grid">
+      <div class="mini"><b>用户为什么来</b><span>AI 变化太快，需要知道新方向、新技能、新机会。</span></div>
+      <div class="mini"><b>为什么现在成立</b><span>AI 降低学习和跨领域试错门槛，职业路径被重新打开。</span></div>
+      <div class="mini"><b>用户得到什么</b><span>职业雷达、技能树、证明框架、全球机会可见性；账号连接和成长打卡是增强层。</span></div>
+      <div class="mini"><b>平台沉淀什么</b><span>兴趣、技能、项目、Proof、简历反馈、机会偏好，以及持续更新的能力图谱。</span></div>
+    </div>
   </div>
-</div></header>
+</header>
 
-<section id="cvalue"><div class="wrap">
-  <h2>C 端吸引力：把已有资产整理成下一步成长路径</h2>
-  <p class="sub">用户不是从零填写资料，也不是完成平台布置的任务。用户把 GitHub、作品、文章、项目、简历等已有职业资产接进来，系统帮他看清自己会什么、还能往哪里走、还缺什么证明。</p>
-  <div class="grid2">
-    <div class="dark"><h3>用户故事</h3><p>我不一定马上找工作，但我想知道 AI 时代我还能往哪里走。我希望系统先理解我已经做过什么，再告诉我哪些技能值得补、哪些能力可以迁移、哪些 proof 可以让我被机会看到。</p><div class="steps"><div class="step"><b>1</b><span>连接账号或提交作品链接，形成初始职业资产。</span></div><div class="step"><b>2</b><span>系统识别现有能力、潜在能力和可泛化能力。</span></div><div class="step"><b>3</b><span>结合职业雷达和 B 端岗位需求，推荐技能路径。</span></div><div class="step"><b>4</b><span>用户补充 proof，私密保存或授权展示。</span></div></div></div>
-    <div class="grid2" style="grid-template-columns:1fr;gap:12px"><div class="card"><b>更清楚自己会什么</b><p>把分散在代码、作品、文章、项目和简历里的能力整理成一张图谱。</p></div><div class="card"><b>更知道自己能转向哪里</b><p>识别潜在能力和可迁移能力，而不是只按过去职位定义用户。</p></div><div class="card"><b>更容易持续成长</b><p>围绕关注领域、技能缺口和 Proof 缺口做轻量更新。</p></div><div class="card"><b>更安全地被看见</b><p>默认私密。用户准备好并授权后，才连接全球机会。</p></div></div>
+<section class="story" id="cvalue">
+  <div class="wrap">
+    <h2>C 端吸引力：把焦虑转成下一步职业路径</h2>
+    <p class="sub">用户不是来完成平台布置的任务，而是来获得一条更清楚的行动路径：我关注的方向发生了什么，我应该补什么技能，我可以用什么真实经历证明自己。</p>
+    <div class="story-grid">
+      <div class="story-main">
+        <span class="small-label">User-facing story</span>
+        <h3>我不一定马上找工作，但我想知道 AI 时代我还能往哪里走。</h3>
+        <p>用户先选择一个感兴趣方向。系统把一手变化和真实岗位需求翻译成职业含义，再给出可选的 Proof Prompt。账号连接只是帮助系统理解用户已有资产，不替代职业雷达、技能树和行动证明这条主线。</p>
+        <div class="story-steps">
+          <div class="story-step"><b>1</b><span>看到一条一手变化或岗位需求信号。</span></div>
+          <div class="story-step"><b>2</b><span>系统解释它影响哪些岗位与技能。</span></div>
+          <div class="story-step"><b>3</b><span>用户结合已有资产选择一个 Proof Prompt。</span></div>
+          <div class="story-step"><b>4</b><span>形成可私密保存、分享或授权给机会方查看的职业证明。</span></div>
+        </div>
+      </div>
+      <div class="benefit-list">
+        <div class="benefit"><strong>更少信息噪声</strong><span>把一手变化翻译成“对我的职业有什么影响”。</span></div>
+        <div class="benefit"><strong>更清楚该学什么</strong><span>技能树由趋势、岗位需求和证明方式共同校准。</span></div>
+        <div class="benefit"><strong>更容易整理自己</strong><span>用户把已有经历、作品、代码、文章、工作流和想法实验转成 proof。</span></div>
+        <div class="benefit"><strong>更安全地被看见</strong><span>默认私密。只有用户准备好并授权时，才连接到全球机会。</span></div>
+      </div>
+    </div>
   </div>
-</div></section>
+</section>
 
-<section id="sources"><div class="wrap">
-  <h2>账号连接与证据源：先把用户已有资产接进来</h2>
-  <p class="sub">第一步不是让用户填表，而是把能证明能力的账号、作品和项目源接入。系统从中抽取技能、工具、产出、角色、时间线和证据强度。</p>
-  <div class="grid4">
-    <div class="card"><b>GitHub</b><p>repo、commit、PR、issue、release、README、language，用于工程、自动化、AI 工具类 proof。</p></div>
-    <div class="card"><b>Portfolio / Design</b><p>个人站、Behance、Dribbble、Figma 链接，用于设计、创意和产品表达 proof。</p></div>
-    <div class="card"><b>Writing / Research</b><p>Substack、Medium、博客、论文、技术文章，用于观点、研究和结构化表达 proof。</p></div>
-    <div class="card"><b>Project / Resume</b><p>Notion、Docs、Slides、脱敏截图、简历和 LinkedIn export，用于基础档案和工作流 proof。</p></div>
+<section>
+  <div class="wrap">
+    <h2>为什么这样设计</h2>
+    <p class="sub">前台解决用户的 AI 时代职业焦虑，后台沉淀可用于 B 端招聘生态的数据。</p>
+    <div class="flow">
+      <div class="flowbox"><strong>01 变化太快</strong><small>用户需要一手变化和真实岗位需求。</small></div>
+      <div class="flowbox"><strong>02 门槛降低</strong><small>AI 让跨领域学习和试错更容易。</small></div>
+      <div class="flowbox"><strong>03 选择更重要</strong><small>想做什么、判断什么、如何行动更能区分人。</small></div>
+      <div class="flowbox"><strong>04 证明要升级</strong><small>技能不能只靠声明，需要行动过程、人的判断和结果信号。</small></div>
+    </div>
+    <div class="quote" style="margin-top:28px">用户价值是入口，能力数据是资产，B 端生态是最终目的。</div>
   </div>
-  <div class="quote" style="margin-top:26px">连接账号不是为了抓取一切，而是让用户把“我做过什么”转化为“我能证明什么”。</div>
-</div></section>
+</section>
 
-<section id="graph"><div class="wrap">
-  <h2>全面能力图谱：现有能力、潜在能力、可泛化能力</h2>
-  <p class="sub">AI 时代的候选人评价不能只看过去职位。系统需要从多源证据中判断用户现在能做什么、可能适合什么、哪些能力可以迁移到新领域。</p>
-  <div class="grid3">
-    <div class="card"><h3>现有能力</h3><p>用户已经有明确证据支持的技能，可作为 B 端高置信匹配字段。</p><ul><li>GitHub / 作品 / 文章 / 项目 / 简历经历</li><li>状态：Self-claimed 到 Source-verified</li><li>用于候选人搜索和匹配</li></ul></div>
-    <div class="card"><h3>潜在能力</h3><p>用户可能具备基础但证据不足的能力，主要用于成长推荐。</p><ul><li>相邻技能、关注领域、学习记录</li><li>状态：Interested / Learning / inferred</li><li>不直接作为强招聘证明</li></ul></div>
-    <div class="card"><h3>可泛化能力</h3><p>跨岗位、跨行业迁移的能力模式。</p><ul><li>结构化表达、问题拆解、自动化思维</li><li>数据判断、系统设计、产品化能力</li><li>用于转型建议和非传统背景发现</li></ul></div>
+<section id="sources">
+  <div class="wrap">
+    <h2>账号连接与证据源：作为 Action Proof 的输入层</h2>
+    <p class="sub">这一层是对原方案的补强，不是替代。用户仍然通过职业雷达、技能树和 Proof Prompt 形成主路径；账号连接的作用，是把用户已经做过的东西带进系统，减少手动填写，提高 proof 可信度。</p>
+    <div class="connector">
+      <div class="card"><b>GitHub</b><p>repo、commit、PR、issue、release、README、language，用于工程、自动化、AI 工具类 proof。</p></div>
+      <div class="card"><b>Portfolio / Design</b><p>个人站、Behance、Dribbble、Figma 链接，用于设计、创意和产品表达 proof。</p></div>
+      <div class="card"><b>Writing / Research</b><p>Substack、Medium、博客、论文、技术文章，用于观点、研究和结构化表达 proof。</p></div>
+      <div class="card"><b>Project / Workflow</b><p>Notion、Docs、Slides、脱敏截图、workflow diagram，用于业务流程和 AI workflow proof。</p></div>
+      <div class="card"><b>Resume / Profile</b><p>简历、LinkedIn export、手动经历，用于基础候选人档案和履历反馈。</p></div>
+    </div>
+    <div class="quote" style="margin-top:26px">连接账号不是为了抓取一切，而是让用户把“我做过什么”转化为“我能证明什么”。</div>
   </div>
-</div></section>
+</section>
 
-<section id="modules"><div class="wrap">
-  <h2>模块设计</h2>
-  <p class="sub">每个模块都先服务用户价值，再沉淀可用于 B 端招聘匹配的职业数据。</p>
-  <div class="module"><div class="module-title"><div class="num">1</div><h3>Career Radar</h3><p>把一手变化翻译成职业含义。</p></div><div><div class="point"><b>产品设计</b><p>聚合官方发布、论文、开源项目、工具更新、岗位变化和 Metix.ai B 端需求信号。</p></div><div class="point"><b>用户价值</b><p>知道“这件事对我意味着什么，我应该关注什么技能”。</p></div></div></div>
-  <div class="module"><div class="module-title"><div class="num">2</div><h3>Capability Graph</h3><p>把多源资产转成三层能力图谱。</p></div><div><div class="point"><b>产品设计</b><p>系统把连接账号、作品、简历和项目文件映射到现有、潜在、泛化能力。</p></div><div class="point"><b>用户价值</b><p>知道自己已经证明了什么，还可以向哪里成长。</p></div></div></div>
-  <div class="module"><div class="module-title"><div class="num">3</div><h3>Action Proof</h3><p>把真实经历和 workflow 沉淀为可信职业资产。</p></div><div><div class="point"><b>产品设计</b><p>系统提供 Proof Prompt，用户填写背景、行动、工具、人的判断、产出、来源证据和可见性。</p></div><div class="point"><b>用户价值</b><p>证明“我如何行动”，而不是只声明“我会什么”。</p></div></div></div>
-  <div class="module"><div class="module-title"><div class="num">4</div><h3>Growth Check-in</h3><p>把职业资产变成持续更新系统。</p></div><div><div class="point"><b>产品设计</b><p>每周推送职业雷达、技能缺口、知识推荐和可补充 proof。</p></div><div class="point"><b>用户价值</b><p>不只在求职时更新资料，而是持续更新职业资产。</p></div></div></div>
-</div></section>
+<section id="graph">
+  <div class="wrap">
+    <h2>全面能力图谱：接入 Skill Tree，而不是替代 Skill Tree</h2>
+    <p class="sub">原有技能树回答“一个方向需要什么能力”；能力图谱回答“这个用户现在有什么能力、可能具备什么能力、哪些能力可以迁移”。两者结合后，产品更适合做成长推荐和 B 端候选人理解。</p>
+    <div class="g3 grid">
+      <div class="graph-card"><h3>现有能力</h3><p>用户已有明确证据支持的技能，可作为 B 端匹配中的高置信字段。</p><ul class="list"><li>来源：GitHub、作品链接、文章、项目文件、简历经历。</li><li>状态：Self-claimed / Structured / Artifact-linked / Source-verified。</li></ul></div>
+      <div class="graph-card"><h3>潜在能力</h3><p>用户可能具备基础但证据不足的能力，主要用于成长推荐。</p><ul class="list"><li>来源：相邻技能、关注领域、学习记录、类似项目经验。</li><li>不直接作为强招聘证明。</li></ul></div>
+      <div class="graph-card"><h3>可泛化能力</h3><p>跨岗位、跨行业迁移的能力模式。</p><ul class="list"><li>例如结构化表达、问题拆解、自动化思维、系统设计、数据判断。</li><li>用于转型建议和非传统背景人才发现。</li></ul></div>
+    </div>
+  </div>
+</section>
 
-<section id="proof"><div class="wrap">
-  <h2>证明如何实现：从账号连接到 Evidence Ledger</h2>
-  <p class="sub">Proof Prompt 不是平台任务，而是可选择的证明框架。可信度来自来源、时间戳、证据完整度和用户授权，而不是 AI 文案本身。</p>
-  <div class="flow"><div><b>连接证据源</b><span>GitHub / 作品 / 文章 / 项目 / 简历</span></div><div><b>抽取能力线索</b><span>技能、工具、角色、产出、时间线</span></div><div><b>映射能力图谱</b><span>现有 / 潜在 / 泛化能力</span></div><div><b>生成 Proof Prompt</b><span>提示用户补齐证据缺口</span></div><div><b>可信展示</b><span>私密、分享或机会可见</span></div></div>
-  <div class="card"><h3>示例：GitHub 连接后的能力证明 <span class="pill">Engineering Proof</span></h3><p><b>系统读取：</b>用户授权的 repo、commit、release、README、语言、issue / PR 参与记录。</p><p><b>系统推断：</b>现有能力 = Python / API integration / workflow automation；潜在能力 = AI agent orchestration；泛化能力 = 系统拆解、调试、持续迭代。</p><p><b>Proof Prompt：</b>选择一个 repo 或 PR，说明问题、你的贡献、工具链、关键判断和结果。系统生成 proof card，但由用户确认后才展示。</p></div>
-  <div class="grid2" style="margin-top:20px"><div class="card"><h3>技能点亮规则</h3><ul><li>Interested：关注技能。</li><li>Learning：收藏资源或阅读 Radar。</li><li>Practiced：提交练习或已有 workflow。</li><li>Proved：提交 Action Proof。</li><li>Verified / Endorsed：外部来源、第三方背书或 B 端反馈。</li></ul></div><div class="card"><h3>可信度等级</h3><ul><li>L0 Self-claimed：用户自称。</li><li>L1 Structured：按模板说明。</li><li>L2 Artifact-linked：附链接、截图、文件、repo。</li><li>L3 Source-verified：OAuth / API / metadata 可确认。</li><li>L4 Outcome signal：招聘方收藏、面试、客户采用或结果指标。</li></ul></div></div>
-</div></section>
+<section id="modules">
+  <div class="wrap">
+    <h2>模块设计</h2>
+    <p class="sub">恢复原主线：职业雷达、技能树、行动证明、全球可见性。账号连接、能力图谱和成长打卡分别加到对应模块中作为增强机制。</p>
+    <div class="module"><div class="module-title"><div class="num">1</div><h3>Career Radar<br>职业雷达</h3><p>把 AI 时代一手变化翻译成职业含义。</p></div><div class="module-detail"><div class="point"><b>产品设计</b><p>用户选择关注领域，例如 AI Marketing、AI Design、AI Ops。系统聚合官方发布、论文、开源项目、工具更新、岗位变化和 Metix.ai B 端需求信号。</p></div><div class="point"><b>新增增强</b><p>Radar 会结合用户已连接资产，解释“这个变化与你已有能力有什么关系”。</p></div><div class="point"><b>数据沉淀</b><p>形成 Interest Graph 和 Attention Signal。</p></div></div></div>
+    <div class="module"><div class="module-title"><div class="num">2</div><h3>Skill Tree<br>技能树</h3><p>从岗位需求和趋势反推技能路径。</p></div><div class="module-detail"><div class="point"><b>产品设计</b><p>每个领域有动态技能树，包含基础能力、AI 工具、工作流能力、行业知识和证明方式。</p></div><div class="point"><b>新增增强</b><p>技能树叠加用户能力图谱，区分现有能力、潜在能力和可泛化能力，帮助用户找到相邻成长路径。</p></div><div class="point"><b>数据沉淀</b><p>形成 Skill Graph、Learning Intent 和 Capability Graph。</p></div></div></div>
+    <div class="module"><div class="module-title"><div class="num">3</div><h3>Action Proof<br>行动证明</h3><p>把真实经历、想法和 workflow 沉淀为可信职业资产。</p></div><div class="module-detail"><div class="point"><b>产品设计</b><p>系统提供 Proof Prompt。用户填写背景、行动、工具、人的判断、产出、来源证据和可见性范围。</p></div><div class="point"><b>新增增强</b><p>账号连接提供证据来源，减少用户从零填写，并提升 evidence confidence。</p></div><div class="point"><b>数据沉淀</b><p>形成 Evidence Graph，可用于用户授权后的机会匹配。</p></div></div></div>
+    <div class="module"><div class="module-title"><div class="num">4</div><h3>Global Visibility<br>全球可见性</h3><p>把行动证明连接到真实招聘机会。</p></div><div class="module-detail"><div class="point"><b>产品设计</b><p>用户默认私密积累。打开可见性后，系统在用户授权范围内把技能树和行动证明用于具体机会匹配。</p></div><div class="point"><b>新增增强</b><p>成长打卡让职业资产持续变新，帮助 B 端看到用户最近是否仍在学习、行动和更新。</p></div><div class="point"><b>数据沉淀</b><p>形成 Opportunity Graph、Freshness Signal 和 Proof Growth。</p></div></div></div>
+  </div>
+</section>
 
-<section id="growth"><div class="wrap">
-  <h2>成长打卡体系：让用户持续回来，也让数据持续变新</h2>
-  <p class="sub">打卡不是签到，而是围绕“我关注什么、我学了什么、我做了什么、我能证明什么”更新职业资产。</p>
-  <div class="grid2"><div class="card"><h3>每周用户看到什么</h3><ul><li>本周关注领域变化。</li><li>哪些技能与用户现有能力最接近。</li><li>哪些技能正在被 B 端岗位需求提到。</li><li>本周可以补充哪一条 proof。</li><li>能力图谱本周有什么变化。</li></ul></div><div class="card"><h3>平台获得什么</h3><ul><li>Freshness Signal：用户是否仍在学习和行动。</li><li>Learning Intent：用户正在向哪里成长。</li><li>Evidence Growth：候选人数据持续补证据。</li><li>Opportunity Fit：更准确判断适合机会和触达意愿。</li></ul></div></div>
-  <div class="quote" style="margin-top:26px">简历是低频更新；成长打卡让职业资产变成持续更新的系统。</div>
-</div></section>
+<section id="proof">
+  <div class="wrap">
+    <h2>证明如何实现：从 Proof Prompt 到 Evidence Ledger</h2>
+    <p class="sub">Proof Prompt 不是平台任务，而是可选择的证明框架。可信度来自来源、时间戳、证据完整度和用户授权，而不是 AI 文案本身。</p>
+    <div class="proofpath"><div><b>Radar 事件</b><span>一手变化或岗位需求</span></div><div><b>技能映射</b><span>关联技能树节点</span></div><div><b>账号 / 作品证据</b><span>GitHub、作品、文章、简历</span></div><div><b>Proof Prompt</b><span>提示用户补齐证据缺口</span></div><div><b>可信展示</b><span>私密、分享或机会可见</span></div></div>
+    <div class="example"><div class="example-head"><h3>示例：GitHub 连接后的工程类证明</h3><span class="tag">Engineering Proof</span></div><p><b>系统读取：</b>用户授权的 repo、commit、release、README、语言、issue / PR 参与记录。</p><p><b>系统推断：</b>现有能力 = Python / API integration / workflow automation；潜在能力 = AI agent orchestration；泛化能力 = 系统拆解、调试、持续迭代。</p><p><b>Proof Prompt：</b>选择一个 repo 或 PR，说明问题、你的贡献、工具链、关键判断和结果。系统生成 proof card，但由用户确认后才展示。</p></div>
+    <div class="trust" style="margin-top:20px"><div class="card"><h3>技能点亮规则</h3><ul class="list"><li>Interested：关注技能。</li><li>Learning：收藏资源或阅读 Radar。</li><li>Practiced：提交练习或已有 workflow。</li><li>Proved：提交 Action Proof。</li><li>Verified / Endorsed：外部来源、第三方背书或 B 端反馈。</li></ul></div><div class="card"><h3>可信度等级</h3><ul class="list"><li>L0 Self-claimed：用户自称。</li><li>L1 Structured：按模板说明。</li><li>L2 Artifact-linked：附链接、截图、文件、repo。</li><li>L3 Source-verified：OAuth / API / metadata 可确认。</li><li>L4 Outcome signal：招聘方收藏、面试、客户采用或结果指标。</li></ul></div></div>
+  </div>
+</section>
 
-<section id="evidence"><div class="wrap">
-  <h2>市场与标准论据</h2>
-  <p class="sub">这些数据和标准说明：技能变化正在加速，AI 技能已经成为招聘信号，能力证明需要来源和 evidence。</p>
-  <table class="table"><tr><th>来源</th><th>关键数据 / 标准</th><th>对设计的含义</th></tr><tr><td>World Economic Forum Future of Jobs 2025</td><td><span class="metric">39%</span><br>2025-2030 年，劳动者现有技能预计将被改变或过时。</td><td>需要持续职业雷达、技能图谱和成长打卡，而不是一次性资料更新。</td></tr><tr><td>Microsoft × LinkedIn 2024 Work Trend Index</td><td><span class="metric">75%</span><br>知识工作者已在工作中使用 AI；报告也指出 AI skills 正成为招聘信号。</td><td>用户需要整理 AI 实践，并把技能声明转成行动证明。</td></tr><tr><td>GitHub REST API</td><td>Commit、author、date、message、verification 等 metadata。</td><td>工程类 proof 可以有较强 provenance。</td></tr><tr><td>Open Badges / W3C VC</td><td>支持 criteria、evidence、issuer-holder-verifier 等信任模型。</td><td>先做内部 Evidence Ledger，后续可演进为可迁移能力证明。</td></tr></table>
-</div></section>
+<section id="growth">
+  <div class="wrap">
+    <h2>成长打卡：作为留存机制，补充到原主线之后</h2>
+    <p class="sub">打卡不是签到，也不是新主产品。它是职业雷达、技能树和行动证明的持续更新机制，让用户每周补一点证据、更新一点方向。</p>
+    <div class="checkin"><div class="checkin-panel"><h3>每周用户看到什么</h3><div class="check-row"><b>1</b><div><strong>关注领域变化</strong><p>职业雷达总结与用户相关的一手变化。</p></div></div><div class="check-row"><b>2</b><div><strong>技能树变化</strong><p>哪些技能变热，哪些技能与已有能力相邻。</p></div></div><div class="check-row"><b>3</b><div><strong>知识推荐</strong><p>根据潜在能力和证明缺口推荐文章、案例、项目范式。</p></div></div><div class="check-row"><b>4</b><div><strong>Proof 缺口</strong><p>提醒用户补充一个链接、截图、项目说明或结果信号。</p></div></div></div><div class="checkin-panel"><h3>平台获得什么</h3><div class="check-row"><b>A</b><div><strong>Freshness Signal</strong><p>知道用户最近是否仍在学习、行动和更新。</p></div></div><div class="check-row"><b>B</b><div><strong>Learning Intent</strong><p>知道用户正在向哪些方向迁移。</p></div></div><div class="check-row"><b>C</b><div><strong>Evidence Growth</strong><p>候选人数据从静态简历变成持续更新的证据账本。</p></div></div><div class="check-row"><b>D</b><div><strong>Opportunity Fit</strong><p>更准确判断用户适合什么机会、愿不愿意被触达。</p></div></div></div></div>
+    <div class="quote" style="margin-top:26px">简历是低频更新；成长打卡让职业资产变成持续更新的系统。</div>
+  </div>
+</section>
 
-<section class="metix" id="metix"><div class="wrap">
-  <h2>Metix.ai 的优势：C 端不是孤立产品，而是接入已有 B 端需求</h2>
-  <p class="sub" style="color:#dbe7ff">OpenJobs Recruiter 已经覆盖招聘任务、JD 结构化、候选人搜索、触达、候选人落地页、约面、权益和订阅支付。C 端产品可以把能力图谱与行动证明接入这个招聘闭环。</p>
-  <div class="grid2"><div class="card"><h3>已有 B 端能力</h3><ul><li>招聘任务与岗位上下文管理</li><li>JD 结构化与候选人深度搜索</li><li>多维度匹配评分</li><li>邮件触达与多轮跟进</li><li>候选人落地页、短链与简历回流</li><li>面试预约、权益解锁、订阅支付</li></ul></div><div class="card"><h3>C 端数据如何进入闭环</h3><table class="table"><tr><th>用户资产</th><th>B 端用途</th></tr><tr><td>现有能力</td><td>提高候选人搜索和匹配精度</td></tr><tr><td>潜在能力</td><td>发现可培养、可转型人才</td></tr><tr><td>可泛化能力</td><td>支持跨行业、跨岗位推荐</td></tr><tr><td>行动证明</td><td>辅助 recruiter 判断真实能力</td></tr><tr><td>机会偏好</td><td>减少无效触达，提高回应概率</td></tr></table></div></div>
-</div></section>
+<section id="evidence">
+  <div class="wrap">
+    <h2>市场论据：数据证明什么，对我们意味着什么</h2>
+    <p class="sub">论据按“报告数据 → 证明的趋势 → 对产品设计的含义”组织。</p>
+    <div class="evidence"><div class="ev"><div class="source"><h3>World Economic Forum<br>Future of Jobs 2025</h3><p>全球雇主调研。</p></div><div><div class="metric">39%</div><p>2025-2030 年，劳动者现有技能预计将被改变或过时。</p></div><div><h3>对产品意味着什么</h3><p>用户需要持续职业雷达、技能树和成长打卡，而不是一次性资料更新。</p></div></div><div class="ev"><div class="source"><h3>Microsoft × LinkedIn<br>2024 Work Trend Index</h3><p>31 个国家、31,000 人调研。</p></div><div><div class="metric">75%</div><p>全球知识工作者已在工作中使用 AI；78% AI 用户自带 AI 工具进入工作场景。</p></div><div><h3>对产品意味着什么</h3><p>AI 使用已经普及，但用户仍需要整理实践、识别能力和证明能力。</p></div></div><div class="ev"><div class="source"><h3>GitHub REST API<br>Commit Signals</h3><p>工程类证据源。</p></div><div><div class="metric">Metadata</div><p>GitHub commits API 返回 commit、author、date、message、signature verification 等信息。</p></div><div><h3>对产品意味着什么</h3><p>工程类 proof 可以有较强 provenance；非工程类 proof 则通过链接、文件、截图和人工确认做弱验证。</p></div></div><div class="ev"><div class="source"><h3>Open Badges / W3C VC</h3><p>技能证明标准参考。</p></div><div><div class="metric">Evidence</div><p>Open Badges 支持 criteria 与 evidence；W3C VC 提供 issuer-holder-verifier 信任模型。</p></div><div><h3>对产品意味着什么</h3><p>Action Proof 可以先做内部 Evidence Ledger，后续再演进为可迁移能力证明。</p></div></div></div>
+  </div>
+</section>
 
-<section><div class="wrap">
-  <h2>参考来源</h2>
-  <div class="grid2 source"><div class="card"><b>World Economic Forum — Future of Jobs Report 2025</b><br><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/" target="_blank">https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/</a></div><div class="card"><b>Microsoft × LinkedIn — 2024 Work Trend Index</b><br><a href="https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" target="_blank">https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part</a></div><div class="card"><b>GitHub REST API Commits</b><br><a href="https://docs.github.com/en/rest/commits/commits" target="_blank">https://docs.github.com/en/rest/commits/commits</a></div><div class="card"><b>Open Badges 3.0 / W3C Verifiable Credentials 2.0</b><br><a href="https://www.imsglobal.org/spec/ob/v3p0/" target="_blank">Open Badges</a> · <a href="https://www.w3.org/TR/vc-data-model-2.0/" target="_blank">W3C VC</a></div></div>
-</div></section>
+<section class="metix" id="metix">
+  <div class="wrap">
+    <h2>Metix.ai 的优势：C 端不是孤立产品，而是接入已有 B 端需求</h2>
+    <p class="sub" style="color:#dbe7ff">OpenJobs Recruiter 已经覆盖招聘任务、JD 结构化、候选人搜索、触达、候选人落地页、约面、权益和订阅支付。C 端产品可以把技能树与行动证明接入这个招聘闭环。</p>
+    <div class="grid g2"><div class="card"><h3>已有 B 端能力</h3><ul class="clean-list"><li>招聘任务与岗位上下文管理</li><li>JD 结构化与候选人深度搜索</li><li>多维度匹配评分</li><li>邮件触达与多轮跟进</li><li>候选人落地页、短链与简历回流</li><li>面试预约、权益解锁、订阅支付</li></ul></div><div class="card"><h3>C 端数据如何进入闭环</h3><table class="matrix"><tr><th>用户资产</th><th>B 端用途</th></tr><tr><td>现有能力</td><td>提高候选人搜索和匹配精度</td></tr><tr><td>潜在能力</td><td>发现可培养、可转型人才</td></tr><tr><td>可泛化能力</td><td>支持跨行业、跨岗位推荐</td></tr><tr><td>行动证明</td><td>辅助 recruiter 判断真实能力</td></tr><tr><td>机会偏好</td><td>减少无效触达，提高回应概率</td></tr></table></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>参考来源</h2>
+    <p class="sub">保留可访问链接，便于汇报时追溯数据来源。</p>
+    <div class="sources"><div class="src"><b>World Economic Forum — Future of Jobs Report 2025</b><span>Skill instability and AI-related skill growth.</span><br><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/" target="_blank">Open source</a></div><div class="src"><b>Microsoft × LinkedIn — 2024 Work Trend Index</b><span>AI adoption and AI skill hiring signals.</span><br><a href="https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part" target="_blank">Open source</a></div><div class="src"><b>GitHub REST API Commits</b><span>Commit metadata and signature verification object.</span><br><a href="https://docs.github.com/en/rest/commits/commits" target="_blank">Open source</a></div><div class="src"><b>Open Badges 3.0 / W3C Verifiable Credentials 2.0</b><span>Criteria, evidence, and credential trust model.</span><br><a href="https://www.imsglobal.org/spec/ob/v3p0/" target="_blank">Open Badges</a> · <a href="https://www.w3.org/TR/vc-data-model-2.0/" target="_blank">W3C VC</a></div></div>
+  </div>
+</section>
 <footer class="footer wrap">Metix.ai internal concept draft · Updated 2026-05-27</footer>
 </body>
 </html>
